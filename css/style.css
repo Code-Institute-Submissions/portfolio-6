@@ -39,6 +39,11 @@ li {
     list-style: none;
 }
 
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 /*************
 *** HEADER ***
 *************/
@@ -158,11 +163,14 @@ nav.menu {
 .intro {
     background: linear-gradient(rgba(52,58,64,1),rgba(52,58,64,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     color: #F5F5F5;
+}
+
+.intro-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 h1.title {
@@ -175,6 +183,39 @@ h1.title {
 
 h1.title span {
     font-weight: 800;
+}
+
+/************************
+*** TYPEWRITER EFFECT ***
+************************/
+
+h2.sub-title {
+    font-weight: 200;
+    align-self: flex-start;
+}
+
+.rotator {
+    padding-top: 2rem;
+}
+
+.rotator:before {
+    position: relative;
+    content: '';
+    left: -15px;
+    top: 12px;
+    display: inline-block;
+    height: 45px;
+    width: 3px;
+    background: red;
+    z-index: 9999;
+}
+
+/* Cursor */
+
+.rotator > .txt {
+    border-right: .1rem solid #777;
+    padding-right: .3rem;
+    letter-spacing: 1.5px;
 }
 
 /******************
