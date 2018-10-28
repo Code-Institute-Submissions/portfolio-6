@@ -1,4 +1,6 @@
-/*========== RESET TO DEFAULT ==========*/
+/*********************** 
+*** RESET TO DEFAULT ***
+***********************/
 
 * {
     box-sizing: border-box;
@@ -6,7 +8,9 @@
     padding: 0;
   }
 
-/*========== PAGE DEFAULTS ==========*/
+/******************* 
+*** PAGE DEFAULT ***
+*******************/
 
 body {
     font-family: 'Muli', sans-serif;
@@ -34,3 +38,68 @@ a {
 li {
     list-style: none;
 }
+
+/*************
+*** HEADER ***
+*************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************
+*** BREAKPOINTS ***
+******************/
+
+@media (min-width: 320px) {
+/* XS SCREEN */
+}
+
+
+
+@media (min-width: 768px) {
+/* SM SCREEN */
+}
+
+
+
+@media (min-width: 960px) {
+    /* MD SCREEN */
+    header {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        background: #272838;
+        box-shadow: 0 15px 40px -7px rgba(0,0,0,.25);
+    }
+
+    .menu-list {
+        float: right;
+        padding-right: 50px;
+    }
+
+    .menu-list-item {
+        display: inline-block;
+        padding: 1em;
+    }
+
+    .nav-link {
+        color: #F5F5F5;
+    } 
+}
+
+
+@media (min-width: 1920px) {
+/* LG SCREEN */
+}
+
