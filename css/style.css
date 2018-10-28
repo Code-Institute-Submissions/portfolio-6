@@ -56,7 +56,6 @@ header {
     height: 48px;
     width: 48px;
     cursor: pointer;
-    /* background: #FFFFFF; */
 }
 
 .line {
@@ -128,6 +127,9 @@ nav.menu {
 .menu-list-item {
     padding: 1em;
     text-align: center;
+    opacity: 0;
+    transform: translateX(200%);
+    transition: all ease-in-out 500ms;
 }
 
 .nav-link {
@@ -137,11 +139,14 @@ nav.menu {
 /* NAVBAR VISIBLE */
 
 .menu-list-visible {
-    height: 100vh;
+    height: calc(100vh - 48px);
     z-index: 100;
 }
 
-
+.slide-in {
+    opacity: 1;
+    transform: translateX(0px);
+}
 
 
 
