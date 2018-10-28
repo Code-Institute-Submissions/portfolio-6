@@ -12,6 +12,10 @@
 *** PAGE DEFAULT ***
 *******************/
 
+html {
+    min-width: 320px;
+}
+
 body {
     font-family: 'Muli', sans-serif;
     background: #F5F5F5;
@@ -167,6 +171,7 @@ nav.menu {
 }
 
 .intro-container {
+    width: 100vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -185,9 +190,7 @@ h1.title span {
     font-weight: 800;
 }
 
-/************************
-*** TYPEWRITER EFFECT ***
-************************/
+/* TYPEWRITER EFFECT */
 
 h2.sub-title {
     font-weight: 200;
@@ -217,6 +220,16 @@ h2.sub-title {
     padding-right: .3rem;
     letter-spacing: 1.5px;
 }
+
+/****************
+*** PORTFOLIO ***
+****************/
+
+section.portfolio {
+    height: 100vh;
+    text-align: center;
+}
+
 
 /******************
 *** BREAKPOINTS ***
