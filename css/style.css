@@ -158,6 +158,23 @@ nav.menu {
 .intro {
     background: linear-gradient(rgba(52,58,64,1),rgba(52,58,64,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F5F5F5;
+}
+
+h1.title {
+    font-weight: 200;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1.75px;
+    text-align: center;
+}
+
+h1.title span {
+    font-weight: 800;
 }
 
 /******************
@@ -178,6 +195,8 @@ nav.menu {
 
 @media (min-width: 960px) {
     /* MD SCREEN */
+
+    /* HEADER */
     header {
         position: fixed;
         width: 100%;
@@ -209,6 +228,12 @@ nav.menu {
     .nav-link {
         color: #F5F5F5;
     } 
+
+    /* INTRO */
+
+    h1.title {
+        font-size: 3.5em;
+    }
 }
 
 
