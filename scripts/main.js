@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.nav-toggle').click(function(){
-        console.log('nav toggle clicked')
+        $('.nav-toggle').toggleClass('active');
+        // console.log('nav toggle clicked')
     })
 });

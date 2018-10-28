@@ -96,6 +96,24 @@ header {
     background: rgba(255,255,255,1);
 }
 
+/* NAVIGATION TOGGLE - ACTIVE */
+
+.nav-toggle.active .line {
+    transform: rotate(-225deg) translate(9px, 6px);
+    left: 50%;
+    background: rgba(255,255,255,1);
+}
+
+.nav-toggle.active .line::before {
+    transform: rotate(90deg) translate(0px, -4.5px);
+    background: rgba(255,255,255,1);
+}
+
+.nav-toggle.active .line::after {
+    transform: rotate(90deg) translate(0px, 4.5px);
+    background: rgba(255,255,255,1);
+}
+
 /* NAVBAR */
 nav.menu {
     display: none;
