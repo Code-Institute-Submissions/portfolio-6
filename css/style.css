@@ -43,14 +43,64 @@ li {
 *** HEADER ***
 *************/
 
+header {
+    background: #272838;
+    box-shadow: 0 15px 40px -7px rgba(0,0,0,.25);
+}
 
+/* NAVIGATION TOGGLE */
+.nav-toggle {
+    position: absolute;
+    right: 0;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+    /* background: #FFFFFF; */
+}
 
+.line {
+    position: absolute;
+    height: .5px;
+    width: 17px;
+    background: rgba(255,255,255,.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
 
+.line::before,
+.line::after {
+    position: absolute;
+    content: '';
+    height: .5px;
+    width: 50%;
+    background: rgba(255,255,255,.5);
+}
 
+.line::before {
+    top: -5px;
+    left: 0;
+}
 
+.line::after {
+    top: 5px;
+    right: 0;
+}
 
+/* NAVBAR */
+.menu-list {
+    /* height: 100vh; */
+    /* background: white;  */
+}
 
+.menu-list-item {
+    padding: 1em;
+    text-align: center;
+}
 
+.nav-link {
+    color: #F5F5F5;
+} 
 
 
 
@@ -79,8 +129,8 @@ li {
         position: fixed;
         width: 100%;
         z-index: 100;
-        background: #272838;
-        box-shadow: 0 15px 40px -7px rgba(0,0,0,.25);
+        /* background: #272838;
+        box-shadow: 0 15px 40px -7px rgba(0,0,0,.25); */
     }
 
     .menu-list {
@@ -90,7 +140,7 @@ li {
 
     .menu-list-item {
         display: inline-block;
-        padding: 1em;
+        /* padding: 1em; */
     }
 
     .nav-link {
