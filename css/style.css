@@ -330,16 +330,25 @@ section.portfolio {
  
 .row-flex {
     display: block;
-    background: #135A6B;
-    height: 100px;
 }
 
 .col {
-    border: 1px solid red;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 4%;
     width: 100%;
 }
 
+.col-image {
+    background: url('https://source.unsplash.com/collection/3320800/') no-repeat center center / cover;
+    min-height: 200px;
+}
+
+.about-text {
+    max-width: 500px;
+    line-height: 1.5;
+}
 
 /******************
 *** BREAKPOINTS ***
