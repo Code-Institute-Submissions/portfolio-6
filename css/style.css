@@ -136,7 +136,7 @@ nav.menu {
 }
 
 .menu-list-item {
-    padding: 1.5em;
+    padding: 1.5em .75em;
     text-align: center;
     opacity: 0;
     transform: translateX(200%);
