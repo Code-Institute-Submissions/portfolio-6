@@ -371,6 +371,23 @@ section.portfolio {
     margin-bottom: 1em;
 }
 
+
+/*************
+*** FOOTER ***
+*************/
+
+footer {
+    background: #32302F;
+    padding: 2.5em 2em;
+    /* height: 10em; */
+    color: #F5F5F5;
+}
+
+footer span {
+    font-size: .8em;
+    display: block;
+}
+
 /******************
 *** BREAKPOINTS ***
 ******************/
