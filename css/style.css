@@ -349,6 +349,10 @@ section.portfolio {
     width: 100%;
 }
 
+.about--col-6 {
+    width: 100%;
+}
+
 .col-image {
     background: url('https://source.unsplash.com/collection/3320800/') no-repeat center center / cover;
     min-height: 200px;
@@ -388,6 +392,11 @@ section.portfolio {
 }
 
 /* TIMELINE */
+.timeline-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .timeline {
     border-left: 2px solid #727987;
     padding: 1em 0;
@@ -396,7 +405,7 @@ section.portfolio {
 .timeline-element {
     background: #727987;
     color: #F5F5F5;
-    margin: .75em 1.25em;
+    margin: .75em 0em .75em 1.5em;
     padding: 1.5em 1em;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
@@ -518,8 +527,8 @@ footer span {
         display: flex;
     }
     
-    .col {
-
+    .about--col-6 {
+        width: 50%;
     }
 }
 
