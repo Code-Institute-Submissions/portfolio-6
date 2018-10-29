@@ -278,8 +278,6 @@ section.portfolio {
 /* XS SCREEN */
 }
 
-
-
 @media (min-width: 768px) {
     /* SM SCREEN */
 
@@ -295,12 +293,8 @@ section.portfolio {
     .project-item {
         width: 50%;
         float: left;
-        text-align: center;
-        position: relative;
     }
 }
-
-
 
 @media (min-width: 960px) {
     /* MD SCREEN */
@@ -354,8 +348,11 @@ section.portfolio {
     }
 }
 
-
 @media (min-width: 1920px) {
-/* LG SCREEN */
+    /* LG SCREEN */
+
+    .project-item {
+        width: 25%;
+    }
 }
 
