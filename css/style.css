@@ -280,7 +280,7 @@ section.intro {
 ****************/
 
 section.portfolio {
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
 }
 
@@ -319,6 +319,27 @@ section.portfolio {
     font-style: italic;
     font-weight: 200;
   }
+
+/************
+*** ABOUT ***
+************/
+
+.about {
+    min-height: 100vh;
+}
+ 
+.row-flex {
+    display: block;
+    background: #135A6B;
+    height: 100px;
+}
+
+.col {
+    border: 1px solid red;
+    height: 100px;
+    width: 100%;
+}
+
 
 /******************
 *** BREAKPOINTS ***
@@ -366,6 +387,15 @@ section.portfolio {
     .project-item {
         width: 50%;
         float: left;
+    }
+
+    /* ABOUT SECTION */
+    .row-flex {
+        display: flex;
+    }
+    
+    .col {
+
     }
 }
 
