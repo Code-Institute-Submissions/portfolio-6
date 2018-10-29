@@ -350,6 +350,27 @@ section.portfolio {
     line-height: 1.5;
 }
 
+.about--section {
+    padding: 8%;
+}
+
+.about--skills {
+
+}
+
+.about--subheader {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.about--skills-intro {
+    text-align: center;
+}
+
+.about--skills-intro p {
+    margin-bottom: 1em;
+}
+
 /******************
 *** BREAKPOINTS ***
 ******************/
