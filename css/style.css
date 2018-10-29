@@ -403,11 +403,36 @@ section.portfolio {
 }
 
 .timeline-element {
+    position: relative;
     background: #727987;
     color: #F5F5F5;
     margin: .75em 0em .75em 1.5em;
     padding: 1.5em 1em;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.timeline-element::before {
+    content: '';
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #989eaa;
+    border: 2px solid #727987;
+    top: 26px;
+    left: -35px;
+    z-index: 2;
+
+}
+
+.timeline-element::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 25px;
+    background: #727987;
+    top: 35px;
+    left: -24px;
 }
 
 .timeline-element-title {
