@@ -342,6 +342,10 @@ section.portfolio {
     }
 
     /* INTRO SECTION */
+    section.intro {
+        background: linear-gradient(rgba(245,245,245,1),rgba(204,204,204,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
+    }
+
     .summary {
         width: 550px;
         top: -8em;
