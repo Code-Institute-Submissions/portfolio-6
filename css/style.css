@@ -48,6 +48,14 @@ li {
     margin: 0 auto;
 }
 
+.section--title {
+    text-align: center;
+    padding: 2em 0;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
 /*************
 *** HEADER ***
 *************/
@@ -408,12 +416,21 @@ footer span {
 
     /* TITLE */
     .title-container {
-        max-width: 310px;
+        max-width: 450px;
         text-align: left;
+    }
+
+    h1.main-title {
+        font-size: 3em;
     }
 
     h2.sub-title {
         font-size: 1.5em;
+    }
+
+    /* TYPOGRAPHY */
+    h2.section--title {
+        font-size: 2.5em;
     }
 
     /* INTRO SECTION */
