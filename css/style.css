@@ -387,6 +387,49 @@ section.portfolio {
     margin-bottom: 1em;
 }
 
+/* TIMELINE */
+.timeline {
+    border-left: 2px solid #727987;
+    padding: 1em 0;
+}
+
+.timeline-element {
+    background: #727987;
+    color: #F5F5F5;
+    margin: .75em 1.25em;
+    padding: 1.5em 1em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.timeline-element-title {
+    text-transform: uppercase;
+    letter-spacing: 1.35px;
+}
+
+.timeline-element-status {
+    margin: .75em 0;
+    font-size: 13px;
+}
+
+.timeline-element-year {
+    
+}
+
+.timeline-element-location {
+    border-left: .5px solid #F5F5F5;
+    margin-left: .5em;
+    padding-left: .5em;
+}
+
+.timeline-element-location a {
+    color: #F5F5F5;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.timeline-element-description {
+    line-height: 1.5em;
+}
 
 
 /**************
