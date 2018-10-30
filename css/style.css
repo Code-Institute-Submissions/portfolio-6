@@ -394,7 +394,6 @@ section.portfolio {
 /* SKILLS TILES */
 
 .skills-container {
-    background: #F5F5F5;
     padding: 2em;
     min-height: 100px;
     width: 100%;
@@ -406,7 +405,7 @@ section.portfolio {
     font-weight: 800;
     letter-spacing: 1.25px;
     padding-bottom: 1em;
-    display: inline-block;
+    display: block;
 }
 
 .skills--section-title::after {
@@ -424,11 +423,14 @@ section.portfolio {
     height: 200px;
     width: 200px;
     background: #727987;
-    margin: 2em .5em;
-    display: flex;
+    margin: 2em 2em 2em 0;
+    display: inline-block;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 350ms ease-in-out; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .skills--tile span {
@@ -438,6 +440,10 @@ section.portfolio {
     letter-spacing: 1px;
 }
 
+.skills--tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px -2px rgba(0,0,0,0.5);
+}
 
 /* TIMELINE */
 .timeline-container {
