@@ -419,11 +419,15 @@ section.portfolio {
     margin-bottom: 2em;
 }
 
+.skills--section {
+    padding: 4% 0;
+}
+
 .skills--tile {
     height: 200px;
     width: 200px;
     background: #727987;
-    margin: 4% 4% 4% 0;
+    margin: 2% 2% 2% 0;
     display: inline-block;
     display: inline-flex;
     flex-direction: column;
@@ -431,7 +435,6 @@ section.portfolio {
     align-items: center;
     transition: all 350ms ease-in-out; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-
     position: relative;
     overflow: hidden;
 }
@@ -445,11 +448,11 @@ section.portfolio {
     background: rgba(35, 38, 45, 0.95);
     top: 100%;
     transition: all 350ms ease-in-out; 
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 12px;
 }
 
 .tile-extra-item {
