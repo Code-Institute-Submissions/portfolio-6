@@ -391,6 +391,54 @@ section.portfolio {
     margin-bottom: 1em;
 }
 
+/* SKILLS TILES */
+
+.skills-container {
+    background: #F5F5F5;
+    padding: 2em;
+    min-height: 100px;
+    width: 100%;
+}
+
+.skills--section-title {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1.25px;
+    padding-bottom: 1em;
+    display: inline-block;
+}
+
+.skills--section-title::after {
+    content: '';
+    position: absolute;
+    height: .5px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background: #727987;
+    margin-bottom: 2em;
+}
+
+.skills--tile {
+    height: 200px;
+    width: 200px;
+    background: #727987;
+    margin: 2em .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills--tile span {
+    color: #F5F5F5;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+
 /* TIMELINE */
 .timeline-container {
     max-width: 1200px;
