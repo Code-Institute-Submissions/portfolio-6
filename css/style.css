@@ -294,7 +294,64 @@ section.portfolio {
     padding: 8%;
 }
 
+.portfolio-container {
+    display: -ms-grid;
+    display: grid;
+    min-height: 75vh;
+    -ms-grid-rows: 1fr 1em 1fr 1em 1fr 1em 1fr 1em 1fr 1em 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    -ms-grid-columns: 1fr 1em 1fr 1em 1fr 1em 1fr 1em 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+    background-color: #8c93a3;
+}
 
+.window-sm {
+    -ms-grid-row-span: 1;
+    grid-row: span 1;
+    -ms-grid-column-span: 1;
+    grid-column: span 1;
+}
+
+.window-md {
+    -ms-grid-row-span: 2;
+    grid-row: span 2;
+    -ms-grid-column-span: 2;
+    grid-column: span 2;
+}
+
+.window-lg {
+    -ms-grid-row-span: 3;
+    grid-row: span 3;
+    -ms-grid-column-span: 3;
+    grid-column: span 3;
+}
+
+.window-tl {
+    -ms-grid-row-span: 3;
+    grid-row: span 3;
+    -ms-grid-column-span: 2;
+    grid-column: span 2;
+}
+
+.window-wd {
+    -ms-grid-row-span: 2;
+    grid-row: span 2;
+    -ms-grid-column-span: 3;
+    grid-column: span 3;
+}
+
+
+.project-item {
+    border: 8px solid #410B13;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    transition: all 350ms ease-in-out;
+}
+
+.project-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px -7px rgba(0,0,0,0.6);
+}
 
 /* .project-item {
     width: 100%;
