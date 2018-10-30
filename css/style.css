@@ -438,15 +438,22 @@ section.portfolio {
 
 .skills--tile .tile-extra {
     position: absolute;
-    text-align: center;
     z-index: 5;
     left: 0;
     right: 0;
     height: 100%;
     background: rgba(35, 38, 45, 0.95);
-    padding: .5em 0;
     top: 100%;
     transition: all 350ms ease-in-out; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-extra-item {
+    padding: .25em 0
 }
 
 .skills--tile span {
