@@ -368,7 +368,7 @@ section.portfolio {
 }
 
 .about--skills {
-
+    background: #8c93a3;
 }
 
 .about--subheader {
@@ -477,7 +477,6 @@ section.portfolio {
 
 /* TIMELINE */
 .timeline-container {
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -694,6 +693,10 @@ footer span {
 
     h2.sub-title {
         font-size: 2em;
+    }
+
+    .timeline-container {
+        padding: 8%;
     }
 
 }
