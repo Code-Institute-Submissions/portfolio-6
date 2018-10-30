@@ -291,9 +291,12 @@ section.intro {
 section.portfolio {
     min-height: 100vh;
     text-align: center;
+    padding: 8%;
 }
 
-.project-item {
+
+
+/* .project-item {
     width: 100%;
     text-align: center;
     position: relative;
@@ -327,7 +330,7 @@ section.portfolio {
     text-transform: lowercase;
     font-style: italic;
     font-weight: 200;
-  }
+  } */
 
 /************
 *** ABOUT ***
@@ -632,10 +635,10 @@ footer span {
     }
 
     /* PORTFOLIO SECTION */
-    .project-item {
+    /* .project-item {
         width: 50%;
         float: left;
-    }
+    } */
 
     /* ABOUT SECTION */
     .row-flex {
@@ -704,9 +707,9 @@ footer span {
 @media (min-width: 1920px) {
     /* LG SCREEN */
 
-    .project-item {
+    /* .project-item {
         width: 25%;
-    }
+    } */
 }
 
 
