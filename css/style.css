@@ -305,6 +305,7 @@ section.portfolio {
 .project-four {
     grid-row: span 3;
     grid-column: span 6;
+    background: #410B13;
 }
 
 .project-one,
@@ -346,10 +347,6 @@ section.portfolio {
 
 .project-two-item {
     background: url('../img/portfolio/python01.jpg');
-}
-
-.project-four-item {
-    background: #410B13;
 }
 
 .project-item {
