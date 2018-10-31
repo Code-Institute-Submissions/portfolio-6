@@ -849,6 +849,19 @@ footer span {
 }
 
 
+/****************************
+*** IE GRID COMPATIBILITY ***
+****************************/
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .project-tile {
+        margin: 1em auto;
+        min-height: 200px;
+        max-width: 750px;
+    }  
+}
+
+
 
 
 
