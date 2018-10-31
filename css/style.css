@@ -57,6 +57,64 @@ li {
     letter-spacing: 7px;
 }
 
+/************ 
+*** TILES ***
+************/
+
+.mk--tile {
+    height: 200px;
+    width: 200px;
+    background: #727987;
+    margin: 2% 2% 2% 0;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+    transition: all 350ms ease-in-out; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.mk--tile .mk--tile-extra {
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: rgba(35, 38, 45, 0.95);
+    top: 100%;
+    transition: all 350ms ease-in-out; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.mk--tile-extra-item {
+    padding: .25em 0
+}
+
+.mk--tile span {
+    color: #F5F5F5;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.mk--tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px -2px rgba(0,0,0,0.5);
+}
+
+.mk--tile:hover .mk--tile-extra {
+    top: 0;
+}
+
+
 /*************
 *** HEADER ***
 *************/
@@ -492,57 +550,13 @@ section.portfolio {
     padding: 4% 0;
 }
 
+/* TILES */
 .skills--tile {
-    height: 200px;
-    width: 200px;
     background: #727987;
-    margin: 2% 2% 2% 0;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    text-align: center;
-    transition: all 350ms ease-in-out; 
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    position: relative;
-    overflow: hidden;
 }
 
 .skills--tile .tile-extra {
-    position: absolute;
-    z-index: 5;
-    left: 0;
-    right: 0;
-    height: 100%;
     background: rgba(35, 38, 45, 0.95);
-    top: 100%;
-    transition: all 350ms ease-in-out; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-}
-
-.tile-extra-item {
-    padding: .25em 0
-}
-
-.skills--tile span {
-    color: #F5F5F5;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 1px;
-}
-
-.skills--tile:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 20px -2px rgba(0,0,0,0.5);
-}
-
-.skills--tile:hover .tile-extra {
-    top: 0;
 }
 
 /* TIMELINE */
