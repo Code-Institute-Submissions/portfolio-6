@@ -497,11 +497,12 @@ section.portfolio {
     width: 200px;
     background: #727987;
     margin: 2% 2% 2% 0;
-    display: inline-block;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1em;
+    text-align: center;
     transition: all 350ms ease-in-out; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     position: relative;
