@@ -342,11 +342,23 @@ section.portfolio {
 }
 
 .project-one-item {
-    background: url('../img/portfolio/python01.jpg');
+    background: url('../img/portfolio/image-nine.jpg');
 }
 
 .project-two-item {
-    background: url('../img/portfolio/python01.jpg');
+    background: url('../img/portfolio/image-two.jpg');
+}
+
+.project-three-item {
+    background: url('../img/portfolio/image-seven.jpg');
+}
+
+.project-five-item {
+    background: url('../img/portfolio/scrummy01.jpg');
+}
+
+.project-six-item {
+    background: url('../img/portfolio/image-one.jpg');
 }
 
 .project-item {
