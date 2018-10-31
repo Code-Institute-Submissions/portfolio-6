@@ -648,6 +648,30 @@ section.portfolio {
     min-height: 100vh;
 }
 
+.social--tile .mk--tile-extra {
+    background-size: 75px;
+    background-position: right -20px bottom -20px;
+    background-repeat: no-repeat;
+}
+
+.social--tile-github .mk--tile-extra {
+    background-image: url('../img/social/github-white.png');
+
+}
+
+.social--tile-linkedin .mk--tile-extra {
+    background-image: url('../img/social/linkedin-white.png');
+
+}
+
+.social--tile-facebook .mk--tile-extra {
+    background-image: url('../img/social/facebook-white.png');
+}
+
+.social--tile-twitter .mk--tile-extra {
+    background-image: url('../img/social/twitter-white.png');
+}
+
 /*************
 *** FOOTER ***
 *************/
