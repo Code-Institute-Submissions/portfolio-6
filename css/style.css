@@ -296,7 +296,6 @@ section.portfolio {
 
 .portfolio-container {
     display: grid;
-    /* min-height: 75vh; */
     grid-template-rows: repeat(18, 1fr);
     grid-template-columns: repeat(6, 1fr);
     grid-gap: .5em;
@@ -397,84 +396,6 @@ section.portfolio {
     font-style: italic;
     font-size: 13px;
     /* font-weight: 200; */
-}
-
-@media (min-width: 600px) {
-
-    .portfolio-container {
-        grid-template-rows: repeat(6, 1fr);
-        grid-gap: 1em;
-    }
-
-    .project-four {
-        grid-row: span 2;
-        grid-column: span 3;
-    }
-    
-    .project-one,
-    .project-three {
-        grid-row: span 2;
-        grid-column: span 3;
-    }
-    
-    .project-two {
-        grid-row: span 2;
-        grid-column: span 3;
-    }
-    
-    .project-five {
-        grid-row: span 2;
-        grid-column: span 3;
-    }
-    
-    .project-six {
-        grid-row: span 2;
-        grid-column: span 3;
-    }
-}
-
-@media (min-width: 768px) {
-    .project-four {
-        grid-row: span 1;
-        grid-column: span 1;
-    }
-    
-    .project-one,
-    .project-three {
-        grid-row: span 2;
-        grid-column: span 2;
-    }
-    
-    .project-two {
-        grid-row: span 3;
-        grid-column: span 4;
-    }
-    
-    .project-five {
-        grid-row: span 3;
-        grid-column: span 3;
-    }
-    
-    .project-six {
-        grid-row: span 2;
-        grid-column: span 3;
-    }
-
-    .project-item:hover {
-        transform: scale(1.15);
-    }
-
-    .project-description {
-        height: 100%;
-        padding: 1em;
-        left:-100%;
-    }
-    
-    .project-item:hover .project-description {
-        background: rgba(65,11,19,.95);
-        left: 0;
-    }
-    
 }
 
 /************
@@ -736,6 +657,42 @@ footer span {
 /* XS SCREEN */
 }
 
+@media (min-width: 600px) {
+    /* PORTFOLIO SECTION */
+
+    /* GRID */
+    .portfolio-container {
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 1em;
+    }
+
+    .project-four {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+    
+    .project-one,
+    .project-three {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+    
+    .project-two {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+    
+    .project-five {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+    
+    .project-six {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+}
+
 @media (min-width: 768px) {
     /* SM SCREEN */
 
@@ -777,6 +734,50 @@ footer span {
         top: 2em;
         padding: 0 1em;
         background: #135A6B;
+    }
+
+    /* PORTFOLIO SECTION */
+
+    /* GRID */
+    .project-four {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+    
+    .project-one,
+    .project-three {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+    
+    .project-two {
+        grid-row: span 3;
+        grid-column: span 4;
+    }
+    
+    .project-five {
+        grid-row: span 3;
+        grid-column: span 3;
+    }
+    
+    .project-six {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+
+    .project-item:hover {
+        transform: scale(1.15);
+    }
+
+    .project-description {
+        height: 100%;
+        padding: 1em;
+        left:-100%;
+    }
+    
+    .project-item:hover .project-description {
+        background: rgba(65,11,19,.95);
+        left: 0;
     }
 
     /* ABOUT SECTION */
