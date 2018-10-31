@@ -353,13 +353,31 @@ section.portfolio {
     min-height: 200px;
     background-position: center;
     background-size: cover;
-    transform: scale(1.25);
     background-repeat: no-repeat;
     transition: all 350ms ease-in-out;
+    position: relative;
 }
 
 .project-item:hover {
-    transform: scale(1);
+    /* transform: scale(1.15); */
+}
+
+.project-description {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F5F5F5;
+    transition: all 350ms ease-in-out;
+    left:-100%;
+}
+
+.project-item:hover .project-description {
+    background: rgba(65,11,19,.95);
+    left: 0;
 }
 
 @media (min-width: 600px) {
