@@ -357,6 +357,8 @@ section.portfolio {
     grid-template-rows: repeat(18, 1fr);
     grid-template-columns: repeat(6, 1fr);
     grid-gap: .5em;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .project-four {
@@ -411,7 +413,7 @@ section.portfolio {
 }
 
 .project-five-item {
-    background: url('../img/portfolio/scrummy01.jpg');
+    background: url('../img/portfolio/image-ten.jpg');
 }
 
 .project-six-item {
