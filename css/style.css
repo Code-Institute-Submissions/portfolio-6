@@ -359,7 +359,7 @@ section.portfolio {
 }
 
 .project-item:hover {
-    /* transform: scale(1.15); */
+    transform: scale(1.15);
 }
 
 .project-description {
@@ -370,6 +370,7 @@ section.portfolio {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1em;
     color: #F5F5F5;
     transition: all 350ms ease-in-out;
     left:-100%;
@@ -379,6 +380,21 @@ section.portfolio {
     background: rgba(65,11,19,.95);
     left: 0;
 }
+
+.project-name {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1.15px;
+}
+
+.project-status {
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 13px;
+    /* font-weight: 200; */
+}
+
+
 
 @media (min-width: 600px) {
 
