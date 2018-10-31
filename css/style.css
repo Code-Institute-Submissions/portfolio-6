@@ -295,99 +295,111 @@ section.portfolio {
 }
 
 .portfolio-container {
-    display: -ms-grid;
     display: grid;
     min-height: 75vh;
-    -ms-grid-rows: 1fr 1em 1fr 1em 1fr 1em 1fr 1em 1fr 1em 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    -ms-grid-columns: 1fr 1em 1fr 1em 1fr 1em 1fr 1em 1fr;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1em;
-    background-color: #8c93a3;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: .5em;
 }
 
-.window-sm {
-    -ms-grid-row-span: 1;
-    grid-row: span 1;
-    -ms-grid-column-span: 1;
-    grid-column: span 1;
-}
-
-.window-md {
-    -ms-grid-row-span: 2;
-    grid-row: span 2;
-    -ms-grid-column-span: 2;
-    grid-column: span 2;
-}
-
-.window-lg {
-    -ms-grid-row-span: 3;
+.project-four {
     grid-row: span 3;
-    -ms-grid-column-span: 3;
-    grid-column: span 3;
+    grid-column: span 6;
 }
 
-.window-tl {
-    -ms-grid-row-span: 3;
+.project-one,
+.project-three {
     grid-row: span 3;
-    -ms-grid-column-span: 2;
-    grid-column: span 2;
+    grid-column: span 6;
 }
 
-.window-wd {
-    -ms-grid-row-span: 2;
-    grid-row: span 2;
-    -ms-grid-column-span: 3;
-    grid-column: span 3;
+.project-two {
+    grid-row: span 3;
+    grid-column: span 6;
 }
 
+.project-five {
+    grid-row: span 3;
+    grid-column: span 6;
+}
 
-.project-item {
+.project-six {
+    grid-row: span 3;
+    grid-column: span 6;
+}
+
+.project-tile {
     border: 8px solid #410B13;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
     transition: all 350ms ease-in-out;
 }
 
-.project-item:hover {
+.project-tile:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 30px -7px rgba(0,0,0,0.6);
 }
 
-/* .project-item {
-    width: 100%;
-    text-align: center;
-    position: relative;
+@media (min-width: 600px) {
+
+    .portfolio-container {
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 1em;
+    }
+
+    .project-four {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+    
+    .project-one,
+    .project-three {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+    
+    .project-two {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+    
+    .project-five {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
+    
+    .project-six {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
 }
 
-.project-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
+@media (min-width: 768px) {
+    .project-four {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+    
+    .project-one,
+    .project-three {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+    
+    .project-two {
+        grid-row: span 3;
+        grid-column: span 4;
+    }
+    
+    .project-five {
+        grid-row: span 3;
+        grid-column: span 3;
+    }
+    
+    .project-six {
+        grid-row: span 2;
+        grid-column: span 3;
+    }
 }
-
-.project-desc {
-    position: absolute;
-    z-index: 5;
-    left: 0;
-    right: 0;
-    bottom: .75em;
-    background: rgba(0, 0, 0, 0.4);
-    padding: .5em 0;
-  }
-  
-  .project-desc p {
-    font-size: initial;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin: .25em;
-  }
-  
-  .project-status {
-    display: block;
-    text-transform: lowercase;
-    font-style: italic;
-    font-weight: 200;
-  } */
 
 /************
 *** ABOUT ***
@@ -691,12 +703,6 @@ footer span {
         background: #135A6B;
     }
 
-    /* PORTFOLIO SECTION */
-    /* .project-item {
-        width: 50%;
-        float: left;
-    } */
-
     /* ABOUT SECTION */
     .row-flex {
         display: flex;
@@ -764,9 +770,6 @@ footer span {
 @media (min-width: 1920px) {
     /* LG SCREEN */
 
-    /* .project-item {
-        width: 25%;
-    } */
 }
 
 
