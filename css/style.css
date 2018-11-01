@@ -68,18 +68,18 @@ section {
 /* SUMMARY BOX */
 .summary {
     position: relative;
-    background: #135A6B;
+    background: #F5F5F5;
     padding: 4em;
-    outline: 2px solid #00B9AE;
+    outline: 2px solid #17171D;
     outline-offset: -2.5em;
     margin: 0 auto;
     box-shadow: 0 25px 45px -20px rgba(0,0,0,0.25);
     max-width: 768px;
-    color: #F5F5F5;
+    color: #17171D;
 }
 
 /* SUMMARY TITLE */
-h3.summary-title {
+.summary-title {
     position: absolute;
     text-transform: uppercase;
     font-weight: 300;
@@ -88,12 +88,66 @@ h3.summary-title {
     left: 50%;
     transform: translateX(-50%);
     padding: 0 .35em;
-    background: #135A6B;
+    background: #F5F5F5;
 }
 
 .summary-main p {
     padding-bottom: 1em;
 }
+
+/* INDIVIDUAL SUMMARY BLOCKS */
+/* INTRO SUMMARY */
+.intro-summary {
+    background: #135A6B;
+    outline: 2px solid #00B9AE;
+    box-shadow: 0 25px 45px -20px rgba(150, 110, 110, 0.25);
+    color: #F5F5F5;
+}
+
+.intro-summary-title {
+    font-size: 1.1em;
+    top: 1.5em;
+    padding: 0 .35em;
+    background: #135A6B;
+}
+
+.intro-summary-main {
+
+}
+
+/* PORTFOLIO SUMMARY */
+.portfolio-summary {
+    background: #410B13;
+    outline: 2px solid #993040;
+    box-shadow: 0 25px 45px -20px rgba(150, 110, 110, 0.25);
+    color: #F5F5F5;
+}
+
+.portfolio-summary-title {
+    font-size: 1.1em;
+    top: 1.5em;
+    padding: 0 .35em;
+    background: #410B13;
+}
+
+.portfolio-summary-main {
+
+}
+
+/* ABOUT SUMMARY */
+.about-summary {
+
+}
+
+.about-summary-title {
+
+}
+
+.about-summary-main {
+
+}
+
+
 
 /************ 
 *** TILES ***
