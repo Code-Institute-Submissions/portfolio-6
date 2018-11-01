@@ -85,6 +85,7 @@ section {
     box-shadow: 0 25px 45px -20px rgba(0,0,0,0.25);
     max-width: 768px;
     color: #17171D;
+    transition: all 350ms ease-in-out; 
 }
 
 /* SUMMARY TITLE */
@@ -184,18 +185,9 @@ section {
 
 @media (min-width: 960px) {
     .summary {
-        width: 550px;
         top: -6em;
         left: -12em;
         padding: 6em;
-        outline-offset: -3.5em;
-    }
-
-    .summary-title {
-        font-size: 1.25em;
-        font-weight: 800;
-        top: 2em;
-        padding: 0 1em;
     }
 
     .portfolio-summary {
@@ -876,22 +868,6 @@ footer span {
         background: linear-gradient(rgba(245,245,245,1),rgba(204,204,204,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
     }
 
-    /* .summary {
-        width: 550px;
-        top: -8em;
-        left: -6em;
-        padding: 6em;
-        outline-offset: -3.5em;
-    }
-
-    h3.summary-title {
-        font-size: 1.25em;
-        font-weight: 800;
-        top: 2em;
-        padding: 0 1em;
-        background: #135A6B;
-    } */
-
     /* PORTFOLIO SECTION */
 
     /* GRID */
@@ -1002,7 +978,13 @@ footer span {
 
 @media (min-width: 1920px) {
     /* LG SCREEN */
+    .summary {
+        left: -35em;
+    }
 
+    .portfolio-summary {
+        left: 35em;
+    }  
 }
 
 
