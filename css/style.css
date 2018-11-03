@@ -869,6 +869,7 @@ fieldset legend {
 
 .form-textarea {
     padding: 4.5em 1.25em 1.25em 1.25em !important;
+    resize: none;
 }
 
 .form-input:hover {
