@@ -822,6 +822,7 @@ fieldset legend {
 
 .input-group {
     position: relative;
+    margin-bottom: 2em;
 }
 
 /* FORM LABEL */
@@ -829,10 +830,13 @@ fieldset legend {
     text-transform: uppercase;
     letter-spacing: 1.25px;
     font-size: 17px;
+    line-height: 2em;
+    padding: 1.25em;
+    background: #989eaa;
     position: absolute;
     color: #F5F5F5;
-    top: 26px;
-    left: 1.25em;
+    /* top: 26px;
+    left: 1.25em; */
     z-index: 2;
     pointer-events: none;
     transition: all 350ms ease-in-out;
@@ -856,7 +860,6 @@ fieldset legend {
 .form-input {
     width: 100%;
     padding: 1.25em 1.25em 1.25em 7em;
-    margin-bottom: 2em;
     font-family: 'Muli', sans-serif;
     font-size: 17px;
     line-height: 2em;
@@ -888,7 +891,6 @@ fieldset legend {
 ::-webkit-textarea-placeholder {
     color: #F5F5F5;
 }
-
 
 
 /*************
