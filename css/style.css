@@ -801,7 +801,7 @@ section.portfolio {
 .contact-form-container {
     margin: 8% 0;
     padding: 4% 1em;
-    /* border: 1px solid #989eaa; */
+    /* background: #989eaa; */
 }
 
 .contact-form {
@@ -818,6 +818,61 @@ fieldset legend {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-bottom: 2em;
+}
+
+/* FORM FIELDS */
+.input-group {
+    position: relative;
+    margin-bottom: 2em;
+    box-shadow: 0 25px 30px -25px rgba(0,0,0,0.25);
+    transition: all 350ms ease-in-out;
+    overflow: hidden;
+}
+
+.input-group:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 27px 30px -23px rgba(0,0,0,0.5);
+}
+
+/* FORM LABELS */
+.form-label {
+    position: absolute;
+    background: #989eaa;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    font-size: 17px;
+    line-height: 2em;
+    padding: 1.25em;
+    color: #F5F5F5;
+    z-index: 2;
+}
+
+.form-label-ta {
+    width: 96%;
+    background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
+}
+
+
+/* INPUT FIELDS */
+.form-input {
+    width: 100%;
+    display: block;
+    padding: 1.25em 1.25em 1.25em 7em;
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+    line-height: 2em;
+    background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
+    color: #F5F5F5; 
+    border: none;
+}
+
+.form-textarea {
+    padding: 4.5em 1.25em 1.25em 1.25em !important;
+    resize: none;
+}
+
+.form-input:focus {
+    outline: none;
 }
 
 /*************
@@ -879,9 +934,10 @@ footer span {
         grid-column: span 3;
     }
 
-    .form-input {
+    /* FORM */
+    /* .form-input {
         padding: 1.25em 1.25em 1.25em 10em;
-    }
+    } */
 }
 
 @media (min-width: 768px) {
