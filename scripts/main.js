@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // NAVIGATION
     $('.nav-toggle').click(function(){
         $('.nav-toggle').toggleClass('active');
         $('.menu-list').toggleClass('menu-list-visible', 500);
@@ -9,7 +10,6 @@ $(document).ready(function(){
           });
     });
 });
-
 
 // TYPEWRITER ES6
 class TypeWriter {
