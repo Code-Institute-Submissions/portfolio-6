@@ -820,11 +820,20 @@ fieldset legend {
     margin-bottom: 2em;
 }
 
+.input-group {
+    position: relative;
+}
+
 /* FORM LABEL */
 .form-label {
     text-transform: uppercase;
     letter-spacing: 1.25px;
     font-size: 17px;
+    position: absolute;
+    color: #F5F5F5;
+    top: 26px;
+    left: 1.25em;
+    z-index: 2;
 }
 
 /* INPUT FIELDS */
