@@ -9,6 +9,11 @@ $(document).ready(function(){
             }, (700 * (Math.exp(i * 0.2))) - 700);
           });
     });
+
+    // FORM INPUT FIELD HOVER/FOCUS/ACTIVE
+    $('.form-input').hover(function() {
+        console.log(`I've hovered over a form input`);
+    });
 });
 
 // TYPEWRITER ES6
