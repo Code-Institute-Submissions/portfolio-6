@@ -824,14 +824,22 @@ fieldset legend {
     width: 100%;
     padding: 1.25em;
     margin-bottom: 2em;
+    font-family: 'Muli', sans-serif;
     font-size: 17px;
     line-height: 2em;
     background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
     color: #F5F5F5;
     border: 0;
     box-shadow: 0 25px 30px -25px rgba(0,0,0,0.25);
+    transition: all 350ms ease-in-out;
 }
 
+.form-input:hover,
+.form-input:active,
+.form-input:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 27px 30px -23px rgba(0,0,0,0.5);
+}
 
 ::-webkit-input-placeholder {
     color: #F5F5F5;
@@ -840,6 +848,8 @@ fieldset legend {
 ::-webkit-textarea-placeholder {
     color: #F5F5F5;
 }
+
+
 
 /*************
 *** FOOTER ***
