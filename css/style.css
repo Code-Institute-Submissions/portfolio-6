@@ -834,6 +834,7 @@ fieldset legend {
     top: 26px;
     left: 1.25em;
     z-index: 2;
+    pointer-events: none;
     transition: all 350ms ease-in-out;
 }
 
