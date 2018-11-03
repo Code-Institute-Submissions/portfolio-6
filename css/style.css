@@ -825,6 +825,11 @@ fieldset legend {
     padding: 1.25em;
     margin-bottom: 2em;
     font-size: 17px;
+    line-height: 2em;
+    background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
+    color: #F5F5F5;
+    border: 0;
+    box-shadow: 0 25px 30px -25px rgba(0,0,0,0.25);
 }
 
 /*************
