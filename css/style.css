@@ -445,7 +445,6 @@ h2.sub-title {
 ****************/
 
 section.portfolio {
-    min-height: 100vh;
     text-align: center;
     padding: 8%; /* OVERWRITE ORIGINAL SECTION PADDING */
 }
@@ -553,7 +552,6 @@ section.portfolio {
     text-transform: lowercase;
     font-style: italic;
     font-size: 13px;
-    /* font-weight: 200; */
 }
 
 /************
