@@ -11,8 +11,11 @@ $(document).ready(function(){
     });
 
     // FORM INPUT FIELD HOVER/FOCUS/ACTIVE
-    $('.form-input').hover(function() {
-        console.log(`I've hovered over a form input`);
+    $('.form-input').mouseover(function() {
+        $(this).siblings().css('top', 23 + "px");
+    });
+    $('.form-input').mouseout(function() {
+        $(this).siblings().css('top', 26 + "px");
     });
 });
 

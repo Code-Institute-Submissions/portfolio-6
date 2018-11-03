@@ -834,6 +834,7 @@ fieldset legend {
     top: 26px;
     left: 1.25em;
     z-index: 2;
+    transition: all 350ms ease-in-out;
 }
 
 /* INPUT FIELDS */
@@ -851,9 +852,7 @@ fieldset legend {
     transition: all 350ms ease-in-out;
 }
 
-.form-input:hover,
-.form-input:active,
-.form-input:focus {
+.form-input:hover {
     transform: translateY(-3px);
     box-shadow: 0 27px 30px -23px rgba(0,0,0,0.5);
 }
