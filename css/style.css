@@ -841,6 +841,10 @@ fieldset legend {
     box-shadow: 0 27px 30px -23px rgba(0,0,0,0.5);
 }
 
+.form-input:focus {
+    outline: none;
+}
+
 ::-webkit-input-placeholder {
     color: #F5F5F5;
 }
