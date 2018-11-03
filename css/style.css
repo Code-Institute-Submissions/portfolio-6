@@ -20,8 +20,8 @@ body {
     font-family: 'Muli', sans-serif;
     background: #F5F5F5;
     font-weight: 200;
-    color: #17171D;
-    /* color: #F5F5F5 */
+    /* color: #17171D; */
+    color: #F5F5F5;
 }
 
 .clearfix,
@@ -60,6 +60,7 @@ section {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 7px;
+    color: #17171D;
 }
 
 /**************
@@ -108,7 +109,6 @@ section {
 .intro-summary {
     background: #135A6B;
     outline: 2px solid #00B9AE;
-    color: #F5F5F5;
 }
 
 .intro-summary-title {
@@ -126,7 +126,6 @@ section {
 .portfolio-summary {
     background: #410B13;
     outline: 2px solid #993040;
-    color: #F5F5F5;
 }
 
 .portfolio-summary-title {
@@ -144,7 +143,6 @@ section {
 .about-summary {
     background: #23262d;
     outline: 2px solid #727987;
-    color: #F5F5F5;
 }
 
 .about-summary-title {
@@ -232,7 +230,6 @@ section {
 }
 
 .mk--tile span {
-    color: #F5F5F5;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 1px;
@@ -370,7 +367,6 @@ nav.menu {
 .title {
     background: linear-gradient(rgba(52,58,64,1),rgba(52,58,64,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
     height: 100vh;
-    color: #F5F5F5;
 }
 
 .title-container {
@@ -537,7 +533,6 @@ section.portfolio {
     align-items: center;
     background: rgba(65,11,19,.90);
     padding: 1em;
-    color: #F5F5F5;
     bottom: 0;
     transition: all 350ms ease-in-out;
 }
@@ -669,7 +664,6 @@ section.portfolio {
 .timeline-element {
     position: relative;
     background: #727987;
-    color: #F5F5F5;
     margin: .75em 0em .75em 1.5em;
     padding: 1.5em 1em;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -736,15 +730,9 @@ section.portfolio {
     line-height: 1.5em;
 }
 
-
 /**************
 *** CONTACT ***
 **************/
-
-.contact {
-    min-height: 100vh;
-}
-
 
 /* SOCIAL TILES */
 .social-container {
@@ -754,6 +742,7 @@ section.portfolio {
 }
 
 .social-container a {
+    color: #F5F5F5;
     margin: 2%;
 }
 
@@ -856,7 +845,6 @@ fieldset legend {
     font-size: 17px;
     line-height: 2em;
     padding: 1.25em;
-    color: #F5F5F5;
     z-index: 2;
 }
 
@@ -896,7 +884,7 @@ footer {
     background: #32302F;
     padding: 2.5em 2em;
     /* height: 10em; */
-    color: #F5F5F5;
+    /* color: #F5F5F5; */
 }
 
 footer span {
