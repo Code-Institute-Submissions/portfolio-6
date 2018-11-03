@@ -820,6 +820,14 @@ fieldset legend {
     margin-bottom: 2em;
 }
 
+/* FORM LABEL */
+.form-label {
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    font-size: 17px;
+}
+
+/* INPUT FIELDS */
 .form-input {
     width: 100%;
     padding: 1.25em;
@@ -837,7 +845,7 @@ fieldset legend {
 .form-input:hover,
 .form-input:active,
 .form-input:focus {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     box-shadow: 0 27px 30px -23px rgba(0,0,0,0.5);
 }
 
@@ -848,7 +856,7 @@ fieldset legend {
 ::-webkit-input-placeholder {
     color: #F5F5F5;
 }
-  
+
 ::-webkit-textarea-placeholder {
     color: #F5F5F5;
 }
