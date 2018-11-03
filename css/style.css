@@ -801,7 +801,7 @@ section.portfolio {
 .contact-form-container {
     margin: 8% 0;
     padding: 4% 1em;
-    border: 1px solid #989eaa;
+    /* border: 1px solid #989eaa; */
 }
 
 .contact-form {
@@ -818,6 +818,13 @@ fieldset legend {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-bottom: 2em;
+}
+
+.form-input {
+    width: 100%;
+    padding: 1.25em;
+    margin-bottom: 2em;
+    font-size: 17px;
 }
 
 /*************
