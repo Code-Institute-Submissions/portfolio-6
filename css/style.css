@@ -838,6 +838,20 @@ fieldset legend {
     transition: all 350ms ease-in-out;
 }
 
+.form-label-ta {
+    width: 96%;
+    padding: 1.25em;
+    background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    font-size: 17px;
+    position: absolute;
+    color: #F5F5F5;
+    z-index: 2;
+    pointer-events: none;
+    transition: all 350ms ease-in-out;
+}
+
 /* INPUT FIELDS */
 .form-input {
     width: 100%;

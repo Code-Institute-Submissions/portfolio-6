@@ -12,10 +12,16 @@ $(document).ready(function(){
 
     // FORM INPUT FIELD HOVER/FOCUS/ACTIVE
     $('.form-input').mouseover(function() {
-        $(this).siblings().css('top', 23 + "px");
+        $(this).siblings('.form-label').css('top', 23 + "px");
     });
     $('.form-input').mouseout(function() {
-        $(this).siblings().css('top', 26 + "px");
+        $(this).siblings('.form-label').css('top', 26 + "px");
+    });
+    $('.form-input').mouseover(function() {
+        $(this).siblings('.form-label-ta').css('top', -3 + "px");
+    });
+    $('.form-input').mouseout(function() {
+        $(this).siblings('.form-label-ta').css('top', 0 + "px");
     });
 });
 
