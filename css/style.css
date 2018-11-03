@@ -837,11 +837,6 @@ footer span {
     /* SM SCREEN */
 
     /* TITLE */
-    .title-container {
-        max-width: 450px;
-        text-align: left;
-    }
-
     h1.main-title {
         font-size: 3em;
     }
@@ -949,11 +944,6 @@ footer span {
     } 
 
     /* TITLE */
-    .title-container {
-        max-width: 510px;
-        text-align: left;
-    }
-
     h1.main-title {
         font-size: 3.5em;
     }
