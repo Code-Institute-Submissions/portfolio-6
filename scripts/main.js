@@ -9,20 +9,6 @@ $(document).ready(function(){
             }, (700 * (Math.exp(i * 0.2))) - 700);
           });
     });
-
-    // FORM INPUT FIELD HOVER/FOCUS/ACTIVE
-    $('.input-group').mouseover(function() {
-        $(this).children().css('transform: translateY(', -3 + "px)");
-    });
-    $('.form-input').mouseout(function() {
-        $(this).children().css('top', 0 + "px");
-    });
-    $('.form-input').mouseover(function() {
-        $(this).siblings('.form-label-ta').css('top', -3 + "px");
-    });
-    $('.form-input').mouseout(function() {
-        $(this).siblings('.form-label-ta').css('top', 0 + "px");
-    });
 });
 
 // TYPEWRITER ES6
