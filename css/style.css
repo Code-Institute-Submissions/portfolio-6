@@ -757,6 +757,8 @@ section.portfolio {
     min-height: 100vh;
 }
 
+
+/* SOCIAL TILES */
 .social-container {
     display: flex;
     justify-content: space-around;
@@ -793,6 +795,29 @@ section.portfolio {
 
 .social--tile-twitter .mk--tile-extra {
     background-image: url('../img/social/twitter-white.png');
+}
+
+/* CONTACT FORM */
+.contact-form-container {
+    margin: 8% 0;
+    padding: 4% 1em;
+    border: 1px solid #989eaa;
+}
+
+.contact-form {
+    max-width: 768px;
+    margin: auto;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 2em;
 }
 
 /*************
