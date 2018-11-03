@@ -558,10 +558,6 @@ section.portfolio {
 *** ABOUT ***
 ************/
 
-.about {
-    min-height: 100vh;
-}
- 
 .row-flex {
     display: block;
 }
@@ -588,11 +584,8 @@ section.portfolio {
     line-height: 1.5;
 }
 
-.about--section {
-    padding: 8%;
-}
-
 .about--skills {
+    padding: 8%;
     background: #8c93a3;
 }
 
@@ -601,7 +594,6 @@ section.portfolio {
     letter-spacing: 1.5px;
     font-weight: 200 !important;
     padding-bottom: 2em;
-
 }
 
 .about--subheader-sk {
@@ -660,13 +652,18 @@ section.portfolio {
 }
 
 /* TIMELINE */
-.timeline-container {
+.about--timeline {
     margin: 0 auto;
 }
 
 .timeline {
     border-left: 2px solid #727987;
     padding: 1em 0;
+}
+
+.about--education,
+.about--experience {
+    padding: 8%;
 }
 
 .timeline-element {
@@ -1075,10 +1072,9 @@ footer span {
         font-size: 2em;
     }
 
-    .timeline-container {
+    .about--timeline {
         padding: 8%;
     }
-
 }
 
 @media (min-width: 1920px) {
