@@ -841,7 +841,7 @@ fieldset legend {
 /* INPUT FIELDS */
 .form-input {
     width: 100%;
-    padding: 1.25em 1.25em 1.25em 5em;
+    padding: 1.25em 1.25em 1.25em 7em;
     margin-bottom: 2em;
     font-family: 'Muli', sans-serif;
     font-size: 17px;
@@ -851,6 +851,10 @@ fieldset legend {
     border: 0;
     box-shadow: 0 25px 30px -25px rgba(0,0,0,0.25);
     transition: all 350ms ease-in-out;
+}
+
+.form-textarea {
+    padding: 4.5em 1.25em 1.25em 1.25em !important;
 }
 
 .form-input:hover {
@@ -929,6 +933,10 @@ footer span {
     .project-six {
         grid-row: span 2;
         grid-column: span 3;
+    }
+
+    .form-input {
+        padding: 1.25em 1.25em 1.25em 10em;
     }
 }
 
