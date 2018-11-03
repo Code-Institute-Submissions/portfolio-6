@@ -21,6 +21,7 @@ body {
     background: #F5F5F5;
     font-weight: 200;
     color: #17171D;
+    /* color: #F5F5F5 */
 }
 
 .clearfix,
@@ -434,14 +435,6 @@ h2.sub-title {
 /************
 *** INTRO ***
 ************/
-
-section.intro {
-    min-height: 100vh;
-}
-
-.intro-main {
-    padding: 6%;
-}
 
 .intro-main p {
     padding-bottom: 1em; 
