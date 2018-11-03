@@ -757,6 +757,20 @@ section.portfolio {
     min-height: 100vh;
 }
 
+.social-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.social-container a {
+    margin: 2%;
+}
+
+.social--tile {
+    margin: 0;
+}
+
 .social--tile .mk--tile-extra {
     background-size: 75px;
     background-position: right -20px bottom -20px;
