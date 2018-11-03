@@ -579,9 +579,11 @@ section.portfolio {
     line-height: 1.5;
 }
 
+/* SKILLS SECTION */
 .about--skills {
     padding: 8%;
-    background: #8c93a3;
+    background: #F5F5F5;
+    color: #17171D;
 }
 
 .about--subheader {
@@ -620,6 +622,7 @@ section.portfolio {
     letter-spacing: 1.25px;
     padding-bottom: 1em;
     display: block;
+    color: #727987;
 }
 
 .skills--section-title::after {
@@ -629,7 +632,7 @@ section.portfolio {
     width: 100%;
     top: 100%;
     left: 0;
-    background: #F5F5F5;
+    background: #727987;
     margin-bottom: 2em;
 }
 
@@ -640,6 +643,7 @@ section.portfolio {
 /* TILES */
 .skills--tile {
     background: #727987;
+    color: #f5f5f5;
 }
 
 .skills--tile .tile-extra {
@@ -1014,6 +1018,10 @@ footer span {
     
     .about--col-6 {
         width: 50%;
+    }
+
+    .about--subheader {
+        font-size: 1.75em;
     }
 }
 
