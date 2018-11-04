@@ -20,6 +20,12 @@ $(document).ready(function(){
             }, (700 * (Math.exp(i * 0.2))) - 700);
           });
     });
+    
+    // SMOOTH SCROLLING
+    var smoothScroll = $('.scroll');
+    smoothScroll.click(function(e) {
+        console.log('You just clicked on a scroll class');
+    });
 });
 
 // TYPEWRITER ES6
