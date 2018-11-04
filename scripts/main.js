@@ -37,6 +37,7 @@ $(document).ready(function(){
            var sectionOffset = $(this.hash).offset().top;
            if (sectionOffset <= scrollBarLocation) {
                $(this).addClass('nav-link--active');
+               $(this).parent().siblings().children().removeClass('nav-link--active');
            }
         });
     });
