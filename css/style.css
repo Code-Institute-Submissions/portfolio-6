@@ -20,7 +20,6 @@ body {
     font-family: 'Muli', sans-serif;
     background: #F5F5F5;
     font-weight: 200;
-    /* color: #17171D; */
     color: #F5F5F5;
 }
 
@@ -60,7 +59,15 @@ section {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 7px;
-    color: #17171D;
+    color: #F5F5F5;
+}
+
+.portfolio .section--title {
+    color: #410B13;
+}
+
+.contact .section--title {
+    color: #727987;
 }
 
 /**************
@@ -84,7 +91,6 @@ section {
     margin: 0 auto;
     box-shadow: 0 25px 50px -15px rgba(0,0,0,0.4);
     max-width: 768px;
-    /* transition: all 350ms ease-in-out;  */
 }
 
 /* SUMMARY TITLE */
@@ -169,10 +175,6 @@ section {
         font-weight: 800;
         top: 2em;
         padding: 0 1em;
-    }
-
-    .portfolio-summary {
-
     }
 }
 
@@ -583,7 +585,7 @@ section.portfolio {
 .about--skills {
     padding: 8%;
     background: #F5F5F5;
-    color: #17171D;
+    color: #727987;
 }
 
 .about--subheader h3 {
@@ -606,7 +608,6 @@ section.portfolio {
     letter-spacing: 1.25px;
     padding-bottom: 1em;
     display: block;
-    color: #727987;
 }
 
 .skills--section-title::after {
@@ -766,7 +767,6 @@ section.portfolio {
 .contact-form-container {
     margin: 8% 0;
     padding: 4% 1em;
-    /* background: #989eaa; */
 }
 
 .contact-form {
@@ -783,7 +783,7 @@ fieldset legend {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-bottom: 2em;
-    color: #17171D;
+    color: #727987;
 }
 
 /* FORM FIELDS */
@@ -817,12 +817,13 @@ fieldset legend {
     border: none;
     padding: 1.25em;
     background: transparent;
-    font-size: 17px;
+    font: 800 17px 'Muli', sans-serif;
     line-height: 2em;
     cursor: pointer;
     color: #F5F5F5;
     text-transform: uppercase;
     letter-spacing: 1.25px;
+    
 }
 
 /* FORM LABELS */
