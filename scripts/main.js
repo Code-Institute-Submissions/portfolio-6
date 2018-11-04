@@ -27,7 +27,7 @@ $(document).ready(function(){
         e.preventDefault(); // PREVENT PAGE FROM JUMPING TO EACH SECTION
         $('body,html').animate({ 
             scrollTop: $(this.hash).offset().top
-        });
+        }, 1000 );
     });
 });
 
