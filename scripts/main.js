@@ -34,7 +34,7 @@ $(document).ready(function(){
     $(window).scroll(function() {
         var scrollBarLocation = $(this).scrollTop();
         smoothScroll.each(function() {
-           var sectionOffset = $(this.hash).offset().top;
+           var sectionOffset = $(this.hash).offset().top - 30;
            if (sectionOffset <= scrollBarLocation) {
                $(this).addClass('nav-link--active');
                $(this).parent().siblings().children().removeClass('nav-link--active');
