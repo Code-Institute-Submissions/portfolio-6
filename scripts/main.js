@@ -25,6 +25,9 @@ $(document).ready(function(){
     var smoothScroll = $('.scroll');
     smoothScroll.click(function(e) {
         e.preventDefault(); // PREVENT PAGE FROM JUMPING TO EACH SECTION
+        $('body,html').animate({ 
+            scrollTop: $(this.hash).offset().top
+        });
     });
 });
 
