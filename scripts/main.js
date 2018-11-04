@@ -9,6 +9,9 @@ $(document).ready(function(){
             }, (700 * (Math.exp(i * 0.2))) - 700);
           });
     });
+    $('.nav-link').click(function() {
+        console.log('You just clicked a nav link');
+    })
 });
 
 // TYPEWRITER ES6
