@@ -343,7 +343,7 @@ nav.menu {
 }
 
 .nav-link {
-    color: #F5F5F5;
+    color: #989eaa;
 }
 
 /* NAVBAR VISIBLE */
@@ -1042,9 +1042,9 @@ footer span {
         transform: translateX(0);
     }
 
-    .nav-link {
+    .nav-link--active {
         color: #F5F5F5;
-    } 
+    }
 
     /* TITLE */
     h1.main-title {
