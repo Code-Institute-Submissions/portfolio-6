@@ -345,6 +345,7 @@ nav.menu {
 
 .nav-link {
     color: #989eaa;
+    transition: color 350ms ease-in-out;
 }
 
 /* NAVBAR VISIBLE */
@@ -1043,6 +1044,10 @@ footer span {
         transform: translateX(0);
     }
 
+    .nav-link:hover {
+        color: #F5F5F5;
+    }
+
     .nav-link--active {
         color: #F5F5F5;
     }
@@ -1056,8 +1061,10 @@ footer span {
         font-size: 2em;
     }
 
+    /* ABOUT */
+    /* TIMELINE */
     .about--timeline {
-        padding: 8%;
+        padding: 8% 8% 0 8%;
     }
 }
 
