@@ -24,7 +24,7 @@ $(document).ready(function(){
     // SMOOTH SCROLLING
     var smoothScroll = $('.scroll');
     smoothScroll.click(function(e) {
-        console.log('You just clicked on a scroll class');
+        e.preventDefault(); // PREVENT PAGE FROM JUMPING TO EACH SECTION
     });
 });
 
