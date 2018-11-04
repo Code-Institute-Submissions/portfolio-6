@@ -336,7 +336,7 @@ nav.menu {
 }
 
 .menu-list-item {
-    padding: 1.5em .75em;
+    padding: 1em .75em;
     text-align: center;
     opacity: 0;
     transform: translateX(200%);
@@ -1040,6 +1040,7 @@ footer span {
     }
 
     .menu-list-item {
+        padding: 1.5em .75em;
         display: inline-block;
         opacity: 1;
         transform: translateX(0);
