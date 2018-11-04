@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    // NAVIGATION
+    // NAVIGATION TOGGLE
     $('.nav-toggle').click(function(){
         $('.nav-toggle').toggleClass('active');
         $('.menu-list').toggleClass('menu-list-visible', 500);
@@ -9,8 +9,9 @@ $(document).ready(function(){
             }, (700 * (Math.exp(i * 0.2))) - 700);
           });
     });
+    
+    // NAV LINK CLICK EVENT
     $('.nav-link').click(function() {
-        console.log('You just clicked a nav link');
         $('.nav-toggle').toggleClass('active');
         $('.menu-list').removeClass('menu-list-visible', 200);
         $('.menu-list-item').each(function(i) {
