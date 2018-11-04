@@ -38,6 +38,7 @@ p, h1, h2, h3, h4, h5, h6, a, li, legend, label, small, figcaption {
 
 a {
     text-decoration: none;
+    color: #F5F5F5;
 }
 
 li {
