@@ -32,9 +32,13 @@ $(document).ready(function(){
 
     // NAV LINK ACTIVE SWITCHER
     $(window).scroll(function() {
-        // console.log('You are scrolling');
         var scrollBarLocation = $(this).scrollTop();
-        console.log(scrollBarLocation);
+        smoothScroll.each(function() {
+           var sectionOffset = $(this.hash).offset().top;
+           if (sectionOffset <= scrollBarLocation) {
+               $(this).addClass('nav-link--active');
+           }
+        });
     });
 });
 
