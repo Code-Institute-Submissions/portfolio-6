@@ -29,6 +29,11 @@ $(document).ready(function(){
             scrollTop: $(this.hash).offset().top
         }, 1000 );
     });
+
+    // NAV LINK ACTIVE SWITCHER
+    $(window).scroll(function() {
+        console.log('You are scrolling');
+    });
 });
 
 // TYPEWRITER ES6
