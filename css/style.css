@@ -1030,6 +1030,7 @@ footer span {
     }
 
     .menu-list {
+        text-align: right;
         height: auto;
         float: right;
         padding-right: 50px;
