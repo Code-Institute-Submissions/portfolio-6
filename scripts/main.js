@@ -7,18 +7,18 @@ $(document).ready(function(){
             setTimeout(function() {
               $('.menu-list-item').eq(i).toggleClass('slide-in');
             }, (700 * (Math.exp(i * 0.2))) - 700);
-          });
+        });
     });
-    
+
     // NAV LINK CLICK EVENT
     $('.nav-link').click(function() {
-        $('.nav-toggle').toggleClass('active');
+        $('.nav-toggle').removeClass('active');
         $('.menu-list').removeClass('menu-list-visible', 200);
         $('.menu-list-item').each(function(i) {
             setTimeout(function() {
-              $('.menu-list-item').eq(i).toggleClass('slide-in');
+              $('.menu-list-item').eq(i).removeClass('slide-in');
             }, (700 * (Math.exp(i * 0.2))) - 700);
-          });
+        });
     });
     
     // SMOOTH SCROLLING
