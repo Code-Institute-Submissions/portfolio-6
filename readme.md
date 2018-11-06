@@ -227,7 +227,7 @@ Following this test, the issue was resolved as seen in this commit: [code and st
 
 ## Deployment
 
-This portfolio will be deployed to Github Pages. - *in testing*
+This portfolio has been deployed to Github Pages.
 
 <br />
 <br />
