@@ -67,8 +67,8 @@ As with markup, Cascading Style Sheets are essential when controlling the layout
 
 For projects using Bootstrap please see my other repositories:
 
-    - [**TOP**SIX**DASHBOARD**](https://github.com/mineshkothari/premierleague)
-    - [Fullstack](https://github.com/mineshkothari/fullstack)
+[TOP SIX DASHBOARD](https://github.com/mineshkothari/premierleague)
+[Fullstack](https://github.com/mineshkothari/fullstack)
 
 - CSS Grid
 
@@ -237,6 +237,18 @@ This portfolio has been deployed to Github Pages.
 Want to learn about some of the known issues/bugs/limitations with this project? Continue reading to find out more. Perhaps, you will find a solution, or a better solution and if so - feel free to create a pull request with your changes.
 
 ### Responsive Design
+
+Having a robust website which works well on all platforms is paramount. As mobile devices become increasingly popular, powerful and smarter - more people are beginning to use this as their primary source of surfing the web. This increases the level of importance when designing responsive websites.
+
+This project has been developed using mobile-first approach. When using a mobile-first apprach, designing websites which work well on smaller devices becomes easier as the primary focus is drawn to how elements are displayed on devices with smaller 'real-estate'. As the screen size increases, so does the functionality.
+
+Before embarking on the project, I had a clear vision outlining how I wanted elements to be displayed both on mobile screens as well as larger devices.
+
+Due to the lack of space available on mobile devices, having a togglable icon to view the navigation bar made sense. To add to this, as the 'real-estate' becomes larger (desktop screen sizes), there is more space available to fit content which we can use to enhance the user's interaction and experience. As a result, it felt to have a button to toggle the navigation on larger displays would have negative experience on users by adding an extra element to their interation. For this reason it made sense to have a fixed navigation menu to the top of the viewport reducing the level of interation thus increasing the experience.
+
+In addition, utilising a bootstrap-like row and column structure using Flexbox also helped in positioning elements which would look great on all screen sizes. This is most notable under the 'About' section.
+
+Systems such as CSS Grid is also used to achieve a beautifully thought out responsive 'Portfolio' section. Although CSS Grid itself is responsive, using the same grid/column setup across all screen sizes would be difficult as mobile screens would be too small for the mosaic effect. As a result, I used various breakpoints to change the grid column setup which works well across each browser.
 
 ### Flexbox
 
