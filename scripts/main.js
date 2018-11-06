@@ -98,7 +98,7 @@ class TypeWriter {
         }
 
         setTimeout(() => this.type(), typeSpeed);
-    }
+    };
 }
 
 // Init On DOM Load
