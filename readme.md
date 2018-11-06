@@ -51,6 +51,7 @@ More focus was drawn to the colour palette for this portfolio. It was imperative
 1. Parallax Summary Div's - Allowing visitors to glance at a quick summary
 2. TypeWriter effect on IE - allowing visitors to see my specialist skills
 3. Contact Form (Firebase) - Allowing visitors to get in touch by filling out the form
+4. Implement CSS Grid for IE 10 and 11.
 
 <br />
 <br />
@@ -281,6 +282,27 @@ The ```width:100vw;``` and ```left:50%;``` were causing side scroll. This meant 
 ```
 
 ### CSS Grid
+
+**Browser Support**
+CSS Grid has been one of my biggest challenges for this project due to its browser support in IE. At time of implementation, [Can I Use](https://caniuse.com/#feat=css-grid) states CSS Grid has partial support in IE 10 and 11 using ```-ms-``` prefix. Having said that, various CSS Grid properties were not available / or only available using third party [Autoprefixer](https://github.com/postcss/autoprefixer) tool.
+
+As I wanted this project to have no (or very little) dependencies, I've been reluctant to use the Autoprefixer tool to implement CSS Grid for IE on this portfolio.
+
+Instead, I opted to stacked them one on top of another, adding margin to each ```.project-tile``` element for a visually appealing fallback option.
+
+```css
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .project-tile {
+        margin: 1em auto;
+        min-height: 200px;
+        max-width: 750px;
+    }  
+}
+```
+
+I did stumble upon an insightful 3-part series: [CSS Grid in IE](https://css-tricks.com/css-grid-in-ie-debunking-common-ie-grid-misconceptions/) explaining CSS Grid support in IE extremely well with some fantastic workarounds.
+
+As a long term solution, outside the scope of this project, I will test the Autoprefixer tool using concepts outlined in the 3-part series on smaller side projects, eventually helping me in transferring the concept onto this project.
 
 ### TypeWriter in IE
 
