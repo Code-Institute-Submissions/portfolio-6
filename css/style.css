@@ -437,6 +437,10 @@ h2.sub-title {
 *** INTRO ***
 ************/
 
+.intro-main {
+    padding: 1em;
+}
+
 .intro-main p {
     padding-bottom: 1em; 
 }
