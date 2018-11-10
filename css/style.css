@@ -206,6 +206,9 @@ section {
     align-items: center;
     /* padding: 1em; */ /* CREATES ISSUE WITH DATA VIS TILE ALIGNMENT */
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
     transition: all 350ms ease-in-out; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     position: relative;
@@ -220,7 +223,7 @@ section {
     height: 100%;
     background: rgba(35, 38, 45, 0.95);
     top: 100%;
-    transition: all 350ms ease-in-out; 
+    transition: all 350ms ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -229,14 +232,14 @@ section {
 }
 
 .mk--tile-extra-item {
-    padding: .25em 0
+    padding: .25em 0;
 }
 
-.mk--tile span {
+/* .mk--tile span {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 1px;
-}
+} */
 
 .mk--tile:hover {
     transform: translateY(-3px);
