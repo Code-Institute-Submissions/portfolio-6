@@ -48,6 +48,8 @@ $(document).ready(function(){
                 console.log('Screen width < 768');
             } else if ( currentWidth >= 768 && currentWidth <= 959 ) {
                 console.log('Screen width between 768 and 959');
+            } else if ( currentWidth >= 960 ) {
+                console.log('Screen width 960 or larger');
             }
         });
     });
