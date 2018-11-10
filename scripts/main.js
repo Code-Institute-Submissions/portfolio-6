@@ -50,6 +50,7 @@ $(document).ready(function(){
 
             if ( currentWidth <= 767 ) {
                 console.log('Screen width < 768');
+                $(this).css('top', 0+'em');
             } else if ( currentWidth >= 768 && currentWidth <= 959 ) {
                 console.log('Screen width between 768 and 959');
                 var limitedOffsetInEm = Math.max(Math.min(offsetInEm, 4), -8);
