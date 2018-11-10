@@ -56,6 +56,8 @@ $(document).ready(function(){
                 $(this).css('top', limitedOffsetInEm+'em');
             } else if ( currentWidth >= 960 ) {
                 console.log('Screen width 960 or larger');
+                var limitedOffsetInEm = Math.max(Math.min(offsetInEm, 4), -6);
+                $(this).css('top', limitedOffsetInEm+'em');
             }
         });
     });
