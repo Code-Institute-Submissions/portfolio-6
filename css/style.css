@@ -794,7 +794,6 @@ fieldset {
     align-items: center;
 }
 
-
 fieldset legend {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -863,7 +862,6 @@ fieldset legend {
     color: #F5F5F5;
     text-transform: uppercase;
     letter-spacing: 1.25px;
-    
 }
 
 /* FORM LABELS */
