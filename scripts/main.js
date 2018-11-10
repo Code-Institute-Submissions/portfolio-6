@@ -63,7 +63,14 @@ $(document).ready(function(){
     $('.contact-form').submit(function(e) {
         e.preventDefault();
         console.log(`You've just submitted a form`);
+        
+        // SHOW ALERT
         $('.form-alert').addClass('alert-animation');
+
+        // HIDE ALERT AFTER FIVE SECONDS
+        setTimeout(function() {
+            $('.form-alert').removeClass('alert-animation');
+        }, 5000);
     });
 });
 
