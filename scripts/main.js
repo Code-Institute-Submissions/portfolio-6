@@ -44,7 +44,7 @@ $(document).ready(function(){
         $('.summary--parallax').each(function() {
             var currentWidth = $(window).width();
             var wScroll = $(window).scrollTop();
-            var elemPos = $(this).parent().offset().top;
+            var elemPos = $(this).parent().offset().top - 450;
             var scrollOffset = wScroll - elemPos;
             var offsetInEm = scrollOffset * 0.01;
 
