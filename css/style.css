@@ -781,7 +781,31 @@ section.portfolio {
     margin: auto;
 }
 
+fieldset {
+    border: none;
+}
+
+.description-container {
+    margin: 2em 0;
+    position: relative;
+    /* height: 75px; */
+    padding: 1.5em;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset legend {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    /* margin: 2em 0; */
+    color: #727987;
+}
+
 .form-alert {
+    position: absolute;
     background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
     padding: 1.5em;
     text-transform: uppercase;
@@ -792,22 +816,6 @@ section.portfolio {
 
 .form-alert p {
     font-size: 1em !important;
-}
-
-fieldset {
-    border: none;
-}
-
-.description-container {
-    margin: 2em 0;
-}
-
-fieldset legend {
-    font-size: 1.5em;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    /* margin: 2em 0; */
-    color: #727987;
 }
 
 /* FORM FIELDS */
