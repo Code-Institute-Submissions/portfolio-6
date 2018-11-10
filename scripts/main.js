@@ -47,12 +47,13 @@ $(document).ready(function(){
             var elemPos = $(this).parent().offset().top;
             var scrollOffset = wScroll - elemPos;
             var offsetInEm = scrollOffset * 0.01;
-            
+
             if ( currentWidth <= 767 ) {
                 console.log('Screen width < 768');
             } else if ( currentWidth >= 768 && currentWidth <= 959 ) {
                 console.log('Screen width between 768 and 959');
-
+                var limitedOffsetInEm = Math.max(Math.min(offsetInEm, 4), -8);
+                $(this).css('top', limitedOffsetInEm+'em');
             } else if ( currentWidth >= 960 ) {
                 console.log('Screen width 960 or larger');
             }
