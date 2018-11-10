@@ -62,7 +62,6 @@ $(document).ready(function(){
     // LISTEN FOR FORM SUBMIT
     $('.contact-form').submit(function(e) {
         e.preventDefault();
-        console.log(`You've just submitted a form`);
         
         // SHOW ALERT
         $('.form-alert').addClass('alert-animation');

@@ -772,7 +772,7 @@ section.portfolio {
 
 /* CONTACT FORM */
 .contact-form-container {
-    margin: 8% 0;
+    /* margin: 8% 0; */
     padding: 4% 1em;
 }
 
@@ -880,7 +880,6 @@ fieldset legend {
     width: 96%;
     background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
 }
-
 
 /* INPUT FIELDS */
 .form-input {
