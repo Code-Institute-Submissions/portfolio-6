@@ -793,6 +793,11 @@ fieldset {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    transition: all 350ms ease-in-out;
+}
+
+.description-success {
+    box-shadow: 0 27px 30px -23px rgba(0,0,0,0.5);
 }
 
 fieldset legend {
@@ -804,24 +809,24 @@ fieldset legend {
 
 .form-alert {
     position: absolute;
-    background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
-    height: 100%;
-    padding: 1.5em;
+    background: linear-gradient(220deg, #989eaa -10%, #5480d7ef 70%);
     text-transform: uppercase;
+    font-weight: 800;
     letter-spacing: 1.25px;
-    text-align: center;
     color: #F5F5F5;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* opacity: 0.2;
-    left: -100%; */
+    opacity: 0.1;
+    left: -100%;
+    transition: all 350ms ease-in-out;
 }
 
-.form-alert p {
-    font-size: 1em !important;
+.alert-animation {
+    opacity: 1;
+    left: 0;
 }
 
 /* FORM FIELDS */
