@@ -792,13 +792,9 @@ fieldset {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     transition: all 350ms ease-in-out;
 }
 
-.description-success {
-    box-shadow: 0 27px 30px -23px rgba(0,0,0,0.5);
-}
 
 fieldset legend {
     font-size: 1.5em;
@@ -820,13 +816,14 @@ fieldset legend {
     justify-content: center;
     align-items: center;
     opacity: 0.1;
-    left: -100%;
+    transform: scale(0.2) rotateX(-90deg);
     transition: all 350ms ease-in-out;
 }
 
 .alert-animation {
     opacity: 1;
-    left: 0;
+    transform: scale(1) rotateX(0);
+    box-shadow: 0 27px 30px -23px rgba(0,0,0,0.5);
 }
 
 /* FORM FIELDS */
