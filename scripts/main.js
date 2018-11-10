@@ -59,6 +59,10 @@ $(document).ready(function(){
             }
         });
     });
+    // LISTEN FOR FORM SUBMIT
+    $('.contact-form').submit(function() {
+        console.log(`You've just submitted a form`);
+    });
 });
 
 // TYPEWRITER ES6
