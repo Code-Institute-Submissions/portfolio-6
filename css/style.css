@@ -815,6 +815,7 @@ fieldset legend {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     opacity: 0.1;
     transform: scale(0.2) rotateX(-90deg);
     transition: all 350ms ease-in-out;
