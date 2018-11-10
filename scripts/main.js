@@ -30,8 +30,8 @@ $(document).ready(function(){
         }, 1000 );
     });
 
-    // NAV LINK ACTIVE SWITCHER
     $(window).scroll(function() {
+        // NAV LINK ACTIVE SWITCHER
         var scrollBarLocation = $(this).scrollTop();
         smoothScroll.each(function() {
            var sectionOffset = $(this.hash).offset().top - 30;
