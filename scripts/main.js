@@ -63,6 +63,7 @@ $(document).ready(function(){
     $('.contact-form').submit(function(e) {
         e.preventDefault();
         console.log(`You've just submitted a form`);
+        $('.form-alert').addClass('alert-animation');
     });
 });
 
