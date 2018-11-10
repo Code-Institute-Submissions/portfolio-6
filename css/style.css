@@ -98,6 +98,7 @@ section {
 .summary-title {
     position: absolute;
     text-transform: uppercase;
+    letter-spacing: 1px;
     font-weight: 300;
     font-size: 1.1em;
     top: 1.5em;
@@ -109,6 +110,16 @@ section {
 
 .summary-main p {
     padding-bottom: 1em;
+    text-align: justify;
+}
+
+.summary-main span {
+    text-transform: capitalize;
+}
+
+.summary-link {
+    font-weight: 800;
+    font-style: italic;
 }
 
 /* INDIVIDUAL SUMMARY BLOCKS */
@@ -189,7 +200,6 @@ section {
         left: 12em;
     }
 }
-
 
 /************ 
 *** TILES ***
