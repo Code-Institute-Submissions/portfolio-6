@@ -788,30 +788,36 @@ fieldset {
 .description-container {
     margin: 2em 0;
     position: relative;
-    /* height: 75px; */
     padding: 1.5em;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 fieldset legend {
     font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    /* margin: 2em 0; */
     color: #727987;
 }
 
 .form-alert {
     position: absolute;
     background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
+    height: 100%;
     padding: 1.5em;
     text-transform: uppercase;
     letter-spacing: 1.25px;
     text-align: center;
     color: #F5F5F5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.2;
+    left: -100%; */
 }
 
 .form-alert p {
