@@ -43,11 +43,16 @@ $(document).ready(function(){
         // PARALLAXING SUMMARY BOX
         $('.summary--parallax').each(function() {
             var currentWidth = $(window).width();
-
+            var wScroll = $(window).scrollTop();
+            var elemPos = $(this).parent().offset().top;
+            var scrollOffset = wScroll - elemPos;
+            var offsetInEm = scrollOffset * 0.01;
+            
             if ( currentWidth <= 767 ) {
                 console.log('Screen width < 768');
             } else if ( currentWidth >= 768 && currentWidth <= 959 ) {
                 console.log('Screen width between 768 and 959');
+
             } else if ( currentWidth >= 960 ) {
                 console.log('Screen width 960 or larger');
             }
