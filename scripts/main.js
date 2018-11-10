@@ -40,6 +40,14 @@ $(document).ready(function(){
                $(this).parent().siblings().children().removeClass('nav-link--active');
            }
         });
+        // PARALLAXING SUMMARY BOX
+        $('.summary--parallax').each(function() {
+            var currentWidth = $(window).width();
+
+            if ( currentWidth <= 767 ) {
+                console.log('Screen width < 768');
+            }
+        });
     });
 });
 
