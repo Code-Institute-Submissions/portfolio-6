@@ -930,8 +930,49 @@ footer span {
 *** BREAKPOINTS ***
 ******************/
 
-@media (min-width: 320px) {
-/* XS SCREEN */
+@media (max-width: 374px) {
+    /* XS SCREEN */
+    p {
+        font-size: 13px;
+    }
+
+    .mk--tile {
+        font-size: 13px;
+        height: 127px;
+        width: 127px;
+    }
+}
+
+@media (max-width: 420px) {
+    /* XS SCREEN */
+    .input-group {
+        margin-bottom: 1em;
+    }
+
+    .form-label,
+    .form-input,
+    .form-submit-btn {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 420px) {
+    /* XS SCREEN */
+    .mk--tile {
+        font-size: 13px;
+        height: 149px;
+        width: 149px;
+    }
+
+    .input-group {
+        margin-bottom: 1em;
+    }
+
+    .form-label,
+    .form-input,
+    .form-submit-btn {
+        font-size: 13px;
+    }
 }
 
 @media (min-width: 600px) {
