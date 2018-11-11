@@ -71,6 +71,9 @@ $(document).ready(function(){
     };
     firebase.initializeApp(config);
 
+    // REFERENCE MESSAGES COLLECTION
+    var messagesRef = firebase.database().ref('messages');
+
     // LISTEN FOR FORM SUBMIT
     $('.contact-form').submit(function(e) {
         e.preventDefault();
