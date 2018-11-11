@@ -54,6 +54,10 @@ section {
     padding: 8% 0;
 }
 
+section:nth-of-type(2n+2) {
+    background: #989eaa;
+}
+
 .section--title {
     text-align: center;
     padding-bottom: 2em;
@@ -1051,9 +1055,9 @@ footer span {
     }
 
     /* INTRO SECTION */
-    section.intro {
+    /* section.intro {
         background: linear-gradient(rgba(245,245,245,1),rgba(204,204,204,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
-    }
+    } */
 
     /* PORTFOLIO SECTION */
 
@@ -1191,17 +1195,4 @@ footer span {
         min-height: 200px;
         max-width: 750px;
     }  
-}
-
-
-
-
-
-
-/***********************
-*** TESTING PURPOSES ***
-***********************/
-
-section:nth-of-type(2n+2) {
-    background: #989eaa;
 }
