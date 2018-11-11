@@ -1194,5 +1194,10 @@ footer span {
         margin: 1em auto;
         min-height: 200px;
         max-width: 750px;
-    }  
+    }
+    
+    .form-alert {
+        top: 0;
+        left: 0;
+    }
 }
