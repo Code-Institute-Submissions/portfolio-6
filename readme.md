@@ -159,7 +159,10 @@ Internet Explorer 11
 
 **Mobile Browsers Tested:**
 ```
-None yet
+Chrome iOS
+Chrome Android
+Samsung Internet
+Safari
 ```
 
 ### console.log
@@ -323,9 +326,9 @@ As a long term solution, outside the scope of this project, I will test the Auto
 Many of the images from this site have been sourced from Unsplash. I created a [collection](https://unsplash.com/collections) which I called using their API https://source.unsplash.com/collection/{COLLECTION ID} during testing. This worked particularly well as it's quick and lightweight. An example of how it was used can be seen below.
 
 ```css
-    section.intro {
-        background: linear-gradient(rgba(245,245,245,1),rgba(204,204,204,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
-    }
+section.intro {
+    background: linear-gradient(rgba(245,245,245,1),rgba(204,204,204,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
+}
 ```
 
 Once the project was nearing completion, I saved and compressed the images to a folder within the project.
