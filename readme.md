@@ -45,13 +45,14 @@ More focus was drawn to the colour palette for this portfolio. It was imperative
 4. Tiles (Skills) - A neat and elegant way to present my skills
 5. Tiles (Timeline) - A neat and elegant way to present my education and experience
 6. Tiles (Social Media) - A neat and elegant way to present my active social media accounts
+7. Parallax Summary Div's - Allowing visitors to glance at a quick summary
+8. Contact Form (Firebase) - Allowing visitors to get in touch by filling out the form
 
 ### Features yet to be implemented
 
-1. Parallax Summary Div's - Allowing visitors to glance at a quick summary
-2. TypeWriter effect on IE - allowing visitors to see my specialist skills
-3. Contact Form (Firebase) - Allowing visitors to get in touch by filling out the form
-4. Implement CSS Grid for IE 10 and 11.
+1. TypeWriter effect on IE - allowing visitors to see my specialist skills 
+2. Implement CSS Grid for IE 10 and 11
+3. Portfolio Modals (Instead of just linking to external site)
 
 <br />
 <br />
