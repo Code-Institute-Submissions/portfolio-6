@@ -934,49 +934,42 @@ footer span {
     }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
     /* XS SCREEN - IPHONE 5/5S */
     .mk--tile {
         font-size: 13px;
         height: 127px;
         width: 127px;
-        white-space: nowrap;
     }
 }
 
-@media (max-width: 413px) {
+@media (max-width: 414px) {
     /* XS SCREEN */
     p {
         font-size: 13px;
     }
+
+    .data--tile {
+        position: relative;
+        top: -8px;
+    }
 }
 
-@media (min-width: 375px) and (max-width: 413px) {
+@media (min-width: 375px) and (max-width: 414px) {
     /* XS SCREEN - IPHONE 6/6S */
     .mk--tile {
         font-size: 13px;
         height: 149px;
         width: 149px;
-        white-space: nowrap;
     }
 }
 
-@media (min-width: 375px) and (max-width: 413px) {
-    /* XS SCREEN */
-    .mk--tile {
-        font-size: 13px;
-        height: 165px;
-        width: 165px;
-    }
-}
-
-@media (min-width: 414px) and (max-width: 567px) {
+@media (min-width: 414px) and (max-width: 568px) {
     /* XS SCREEN - LARGE MOBILE PHONES */
     .mk--tile {
         font-size: 13px;
         height: 165px;
         width: 165px;
-        white-space: nowrap;
     }
 }
 
