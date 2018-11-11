@@ -80,6 +80,9 @@ $(document).ready(function(){
         var email = getInputVal('form-email');
         var message = getInputVal('form-message');
 
+        // SAVE MESSAGE
+        saveMessage(name, email, message);
+
         // SHOW ALERT
         $('.form-alert').addClass('alert-animation');
 
@@ -93,4 +96,15 @@ $(document).ready(function(){
     function getInputVal(id) {
         return document.getElementById(id).value;
     }
+
+    // SAVE MESSAGE TO FIREBASE
+    function saveMessage(name, email, message){
+        var newMessageRef = messagesRef.push();
+        newMessageRef.set({
+          name: name,
+          email: email,
+          message: message
+        });
+    }
+
 });
