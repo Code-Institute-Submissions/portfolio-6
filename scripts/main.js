@@ -63,6 +63,11 @@ $(document).ready(function(){
     $('.contact-form').submit(function(e) {
         e.preventDefault();
         
+        // GET VALUES
+
+        var name = getInputVal('form-name');
+        console.log(name);
+
         // SHOW ALERT
         $('.form-alert').addClass('alert-animation');
 
@@ -71,4 +76,10 @@ $(document).ready(function(){
             $('.form-alert').removeClass('alert-animation');
         }, 5000);
     });
+
+    // FUNCTION TO GET FORM VALUES
+    function getInputVal(id) {
+        return document.getElementById(id).value;
+    }
+
 });
