@@ -140,10 +140,6 @@ section:nth-of-type(2n+2) {
     background: #135A6B;
 }
 
-.intro-summary-main {
-
-}
-
 /* PORTFOLIO SUMMARY */
 .portfolio-summary {
     background: #410B13;
@@ -157,10 +153,6 @@ section:nth-of-type(2n+2) {
     background: #410B13;
 }
 
-.portfolio-summary-main {
-
-}
-
 /* ABOUT SUMMARY */
 .about-summary {
     background: #23262d;
@@ -172,10 +164,6 @@ section:nth-of-type(2n+2) {
     top: 1.5em;
     padding: 0 .35em;
     background: #23262d;
-}
-
-.about-summary-main {
-
 }
 
 @media (min-width: 768px) {
@@ -721,10 +709,6 @@ section.portfolio {
 .timeline-element-status {
     margin: .75em 0;
     font-size: 13px;
-}
-
-.timeline-element-year {
-    
 }
 
 .timeline-element-location {
