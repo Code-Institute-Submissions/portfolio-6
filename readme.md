@@ -11,7 +11,7 @@ This project consists of a single page portfolio website. Visitors can keep up t
 
 ### What is it for?
 
-This portfolio has been developed as part of my Stream 1 project for [Code Institute](https://codeinstitute.net/)'s Full Stack Web Development course. Upon complettion of the course, I will gain a diploma in Software Development.
+This portfolio has been developed as part of my Stream 1 project for [Code Institute](https://codeinstitute.net/)'s Full Stack Web Development course. Upon completion of the course, I will gain a diploma in Software Development.
 
 ### Who is it targeted at?
 
@@ -28,7 +28,7 @@ Here, you will learn a little bit about me, my skills and experience as well as 
 
 The key focus of this project is to showcase my portfolio website whilst finding the right balance between a clean and minimalistic look and feel as well as utilising the best techniques to present content in spectacular ways.
 
-The project's design is something that has been derived from Google's [Material Desgin](https://material.io/design/). With great admiration for Material Design, it was a great opportunity to take inspiration from techniques which work well and showcase my knowledge through the portfolio.
+The project's design is something that has been derived from Google's [Material Design](https://material.io/design/). With great admiration for Material Design, it was a great opportunity to take inspiration from techniques which work well and showcase my knowledge through the portfolio.
 
 More focus was drawn to the colour palette for this portfolio. It was imperative to use 'soft' contrasting colours, ones which also complement each other.
 
@@ -86,7 +86,7 @@ Custom JavaScript (Vanilla and JQuery) was used for this project to enhance the 
 
 - JQuery
 
-JQuery was used as part of my JavaScript functionaility. One of many perks for using JQuery is its simplicity in manipulating DOM elements using the syntax ```$('.myClass')``` as oppose to writing out ```document.querySelector('.myClass')``` each time.
+JQuery was used as part of my JavaScript functionality. One of many perks for using JQuery is its simplicity in manipulating DOM elements using the syntax ```$('.myClass')``` as oppose to writing out ```document.querySelector('.myClass')``` each time.
 
 - Firebase
 
@@ -104,7 +104,7 @@ This portfolio has very few dependencies making it really simple to set up on yo
 
 **Prerequisites:**
 ```
-This portfoilio has no prerequisites
+This portfolio has no prerequisites
 ```
 
 ### Forking The Repo
@@ -127,7 +127,7 @@ Now you're all set to make changes. You can open the project on you preferred te
 ### Submitting Pull Requests
 
 Now that you've made changes to the portfolio, you can submit a pull request to the master branch to await approval. To do this:
-1. Navigate to the [origianl repository](https://github.com/mineshkothari/portfolio "https://github.com/mineshkothari/portfolio")
+1. Navigate to the [original repository](https://github.com/mineshkothari/portfolio "https://github.com/mineshkothari/portfolio")
 2. Click on **New pull request** on the right of the Branch menu
 3. On the compare page, click **compare across forks**
 4. Confirm that the *base fork* is the repository you'd like to merge into
@@ -179,7 +179,7 @@ Manual tests were carried out at every stage to ensure the user experience stand
 
 ### Responsive Design
 
-Further manual tests were conducted to ensure the portfolio was as responsive as possible. Similar to the UX/UI testing appraoch, these tests were carried out after every implementation to minimise time spend debugging responsive issues.
+Further manual tests were conducted to ensure the portfolio was as responsive as possible. Similar to the UX/UI testing approach, these tests were carried out after every implementation to minimise time spend debugging responsive issues.
 
 Responsive tests were carried out using Chrome DevTools' device emulator.
 
@@ -192,7 +192,7 @@ See the **Report > Responsive Design** section for more details.
 
 ### Cross-Browser Testing
 
-Cross-browser testing was undertaken after each major implementation of the project. This included the implmentation of the navbar, CSS Grid, and Flexbox items amoungst many others.
+Cross-browser testing was undertaken after each major implementation of the project. This included the implementation of the navbar, CSS Grid, and Flexbox items amongst many others.
 
 The purpose of conducting these test was to ensure the behaviour of the site remained optimal across four of the biggest browsers available on Windows 10, noting down any issues which need resolving.
 
@@ -212,13 +212,13 @@ Tests were also carried out to ensure the contact form was behaving correctly. M
 
 When developing the contact form, I'd created ```<label>``` and ```<input>``` tags for the 'Name' field, which I later copied across for the 'Email' and 'Message' fields making changes to the content where necessary.
 
-However, during testng - I soon realised that I'd forgotton to change the ```for="form-name"``` attribute on the labels as clicking on the Email or Message label would result the cursor going back to the Name input field.
+However, during testing - I soon realised that I'd forgotten to change the ```for="form-name"``` attribute on the labels as clicking on the Email or Message label would result the cursor going back to the Name input field.
 
 This was later resolved and followed with a git commit: [fixed issue with form labels](https://github.com/mineshkothari/portfolio/commit/4691aa8c74645b994d64862fce2d78e0ae8aa57a)
 
 **type email**
 
-As per above, another issue became apparent as a result of copying and pasting code from the 'Name' field where I'd forgotton to amend the ```type="text"``` to ```type="email"```.
+As per above, another issue became apparent as a result of copying and pasting code from the 'Name' field where I'd forgotten to amend the ```type="text"``` to ```type="email"```.
 
 When testing the form validation after implementation of the Submit button, it was clear user's can enter any text into email field not necessarily including an '@' symbol and the form would validate perfectly fine.
 
@@ -242,11 +242,11 @@ Want to learn about some of the known issues/bugs/limitations with this project?
 
 Having a robust website which works well on all platforms is paramount. As mobile devices become increasingly popular, powerful and smarter - more people are beginning to use this as their primary source of surfing the web. This increases the level of importance when designing responsive websites.
 
-This project has been developed using mobile-first approach. When using a mobile-first apprach, designing websites which work well on smaller devices becomes easier as the primary focus is drawn to how elements are displayed on devices with smaller 'real-estate'. As the screen size increases, so does the functionality.
+This project has been developed using mobile-first approach. When using a mobile-first approach, designing websites which work well on smaller devices becomes easier as the primary focus is drawn to how elements are displayed on devices with smaller 'real-estate'. As the screen size increases, so does the functionality.
 
 Before embarking on the project, I had a clear vision outlining how I wanted elements to be displayed both on mobile screens as well as larger devices.
 
-Due to the lack of space available on mobile devices, having a togglable icon to view the navigation bar made sense. To add to this, as the 'real-estate' becomes larger (desktop screen sizes), there is more space available to fit content which we can use to enhance the user's interaction and experience. As a result, it felt to have a button to toggle the navigation on larger displays would have negative experience on users by adding an extra element to their interation. For this reason it made sense to have a fixed navigation menu to the top of the viewport reducing the level of interation thus increasing the experience.
+Due to the lack of space available on mobile devices, having a togglable icon to view the navigation bar made sense. To add to this, as the 'real-estate' becomes larger (desktop screen sizes), there is more space available to fit content which we can use to enhance the user's interaction and experience. As a result, it felt to have a button to toggle the navigation on larger displays would have negative experience on users by adding an extra element to their interaction. For this reason it made sense to have a fixed navigation menu to the top of the viewport reducing the level of interaction thus increasing the experience.
 
 In addition, utilising a bootstrap-like row and column structure using Flexbox also helped in positioning elements which would look great on all screen sizes. This is most notable under the 'About' section.
 
@@ -254,7 +254,7 @@ Systems such as CSS Grid is also used to achieve a beautifully thought out respo
 
 ### Flexbox
 
-Flexbox is a great way for aligning DOM elements and a system which has been adoptod by the likes of Bootstrap. It's really taking off as an ingenious way to alignment content replacing the need for using the good old fashioned ```left: 50%; transform: translateX(-50%);``` to center objects.
+Flexbox is a great way for aligning DOM elements and a system which has been adopted by the likes of Bootstrap. It's really taking off as an ingenious way to alignment content replacing the need for using the good old fashioned ```left: 50%; transform: translateX(-50%);``` to center objects.
 
 The following snippet of CSS was used to align the main title centrally, initially:
 
@@ -328,7 +328,7 @@ Once project ready to submit, will change to image on local folder
 
 ### Acknowledgements
 
-- TypeWriter - This effect is something I learnt from [Brad Traversy](https://www.youtube.com/watch?v=POX3dT-pB4E)'s YouTube channnel. This neat little effect, has given my portfolio flair which I think works well with the rest of the site.
+- TypeWriter - This effect is something I learnt from [Brad Traversy](https://www.youtube.com/watch?v=POX3dT-pB4E)'s YouTube channel. This neat little effect, has given my portfolio flair which I think works well with the rest of the site.
 
 - Parallax Summary Boxes - This implementation is something I admired when learning about Parallax effects through one of [Kevin Powell](https://www.youtube.com/watch?v=SmolT-tV5Lw)'s videos.
 
