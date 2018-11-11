@@ -59,14 +59,26 @@ $(document).ready(function(){
             }
         });
     });
+
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyD3LYuxK3bB1Upjjl7vq7QnoS8DpNzdlyE",
+        authDomain: "mk-github-portfolio.firebaseapp.com",
+        databaseURL: "https://mk-github-portfolio.firebaseio.com",
+        projectId: "mk-github-portfolio",
+        storageBucket: "mk-github-portfolio.appspot.com",
+        messagingSenderId: "1009925714765"
+    };
+    firebase.initializeApp(config);
+
     // LISTEN FOR FORM SUBMIT
     $('.contact-form').submit(function(e) {
         e.preventDefault();
         
         // GET VALUES
-
         var name = getInputVal('form-name');
-        console.log(name);
+        var email = getInputVal('form-email');
+        var message = getInputVal('form-message');
 
         // SHOW ALERT
         $('.form-alert').addClass('alert-animation');
@@ -81,5 +93,4 @@ $(document).ready(function(){
     function getInputVal(id) {
         return document.getElementById(id).value;
     }
-
 });
