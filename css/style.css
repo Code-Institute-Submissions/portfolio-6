@@ -802,7 +802,7 @@ fieldset legend {
 
 .form-alert {
     position: absolute;
-    background: linear-gradient(220deg, #989eaa -10%, #5480d7ef 70%);
+    background: linear-gradient(220deg, #989eaa -10%, #5480d7 70%);
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 1.25px;
