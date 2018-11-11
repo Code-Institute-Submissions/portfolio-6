@@ -926,44 +926,62 @@ footer span {
 *** BREAKPOINTS ***
 ******************/
 
-@media (max-width: 374px) {
-    /* XS SCREEN */
-    /* p {
-        font-size: 13px;
-    } */
+@media (max-width: 351px) {
+    /* FIXING SUMMARY TITLES ON SMALL SCREENS */
+    .summary-title {
+        font-size: 0.9em;
+        top: 2em;
+    }
+}
 
+@media (max-width: 374px) {
+    /* XS SCREEN - IPHONE 5/5S */
     .mk--tile {
         font-size: 13px;
         height: 127px;
         width: 127px;
+        white-space: nowrap;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 413px) {
     /* XS SCREEN */
     p {
         font-size: 13px;
     }
-    
-    .input-group {
-        margin-bottom: 1em;
-    }
-
-    .form-label,
-    .form-input,
-    .form-submit-btn {
-        font-size: 13px;
-    }
 }
 
-@media (min-width: 375px) and (max-width: 420px) {
-    /* XS SCREEN */
+@media (min-width: 375px) and (max-width: 413px) {
+    /* XS SCREEN - IPHONE 6/6S */
     .mk--tile {
         font-size: 13px;
         height: 149px;
         width: 149px;
+        white-space: nowrap;
     }
+}
 
+@media (min-width: 375px) and (max-width: 413px) {
+    /* XS SCREEN */
+    .mk--tile {
+        font-size: 13px;
+        height: 165px;
+        width: 165px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 567px) {
+    /* XS SCREEN - LARGE MOBILE PHONES */
+    .mk--tile {
+        font-size: 13px;
+        height: 165px;
+        width: 165px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 500px) {
+    /* CONTACT FORM - SMALL DEVICES */
     .input-group {
         margin-bottom: 1em;
     }
