@@ -60,6 +60,7 @@ $(document).ready(function(){
         });
     });
 
+    // Firebase Connection - Credit Brad Traversy  https://youtu.be/PP4Tr0l08NE
     // Initialize Firebase
     var config = {
         apiKey: "AIzaSyD3LYuxK3bB1Upjjl7vq7QnoS8DpNzdlyE",
