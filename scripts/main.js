@@ -74,7 +74,7 @@ $(document).ready(function(){
     // REFERENCE MESSAGES COLLECTION
     var messagesRef = firebase.database().ref('messages');
 
-    // LISTEN FOR FORM SUBMIT
+    // ON FORM SUBMIT
     $('.contact-form').submit(function(e) {
         e.preventDefault();
         
@@ -93,6 +93,9 @@ $(document).ready(function(){
         setTimeout(function() {
             $('.form-alert').removeClass('alert-animation');
         }, 5000);
+
+        // CLEAR FORM VALUES
+        document.getElementById('contact-form').reset();
     });
 
     // FUNCTION TO GET FORM VALUES
@@ -109,5 +112,4 @@ $(document).ready(function(){
           message: message
         });
     }
-
 });
