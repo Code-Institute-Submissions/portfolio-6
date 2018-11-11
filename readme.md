@@ -320,11 +320,15 @@ As a long term solution, outside the scope of this project, I will test the Auto
 
 ### Media
 
-Large amount of images taken from Unsplash.
-Created a collection (link to it here).
-Used for testing purposes (quick and easy)
+Many of the images from this site have been sourced from Unsplash. I created a [collection](https://unsplash.com/collections) which I called using their API https://source.unsplash.com/collection/{COLLECTION ID} during testing. This worked particularly well as it's quick and lightweight. An example of how it was used can be seen below.
 
-Once project ready to submit, will change to image on local folder
+```css
+    section.intro {
+        background: linear-gradient(rgba(245,245,245,1),rgba(204,204,204,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
+    }
+```
+
+Once the project was nearing completion, I saved and compressed the images to a folder within the project.
 
 ### Acknowledgements
 
@@ -332,3 +336,4 @@ Once project ready to submit, will change to image on local folder
 
 - Parallax Summary Boxes - This implementation is something I admired when learning about Parallax effects through one of [Kevin Powell](https://www.youtube.com/watch?v=SmolT-tV5Lw)'s videos.
 
+- Firebase integration - Connecting the contact form to a back-end server is something I felt keen to have implemented into this project. Brad Traversy has a great [video](https://www.youtube.com/watch?v=PP4Tr0l08NE) explaining how to set up a contact form with Firebase.
