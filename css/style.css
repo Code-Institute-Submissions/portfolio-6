@@ -579,18 +579,23 @@ section.portfolio {
 
 .col-image {
     min-height: 200px;
-    padding: 0;
 }
 
-.about-img{
-    height: 100%;
+.about-img-author {
+    /* height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover; */
+    background: url('../img/other/bg1.jpg') no-repeat center center / cover;
+}
+
+.about-img {
+    background: url('../img/portfolio/image-three.jpg') no-repeat center center / cover;
 }
 
 .about-text {
     max-width: 500px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 /* SKILLS SECTION */
