@@ -627,7 +627,7 @@ section.portfolio {
 .skills--section-title::after {
     content: '';
     position: absolute;
-    height: .5px;
+    height: 1px;
     width: 100%;
     top: 100%;
     left: 0;
