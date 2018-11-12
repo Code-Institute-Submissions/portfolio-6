@@ -169,6 +169,8 @@ Safari
 
 Using ```console.log()``` to test new JavaScript functionality has helped me understand the behaviour of certain ```.click``` or ```.scroll``` events. Once the tests passed, I was confident of using JQuery to manipulate certain DOM elements to improve the UX/UI of the site.
 
+This included events such as toggling the navigation menu on mobile devices, parallaxing divs, smooth scrolling and validating form entries to name a few.
+
 Some of the commits where ```console.log()``` had been used:
 
 - [test toggle click event using console.log - passed](https://github.com/mineshkothari/portfolio/commit/e789ef038418a2264fc861ebecda1a5a5d1e02ab)
@@ -324,7 +326,17 @@ As a long term solution, outside the scope of this project, I will test the Auto
 
 ### TypeWriter in IE
 
+The TypeWriter effect is something which I learnt watching one of Brad Traversy's YouTube tutorials (please see credit section below). This effect was created using JavaScript's ES6 and arrow functions, embedding this inside my ```main.js``` file. 
+
+It soon became apparent that arrow functions are not readily supported in IE and other older browsers which caused underlying issues executing the other JavaScript functions inside the ```main.js``` file.
+
+I tried using Babel to convert the JavaScript code to ES2015, however, this caused further complications on all other major browsers such as Chrome and Firefox.
+
+As a result, I opted to disable the TypeWriter effect on IE altogether by moving the JavaScript code to a separate file called ```TypeWriter.js```. This allowed all other functions in ```main.js``` to continue working in IE.
+
 ### Parallax effect
+
+The parallaxing summary divs are something I am very fond of. They've been difficult to implement  
 
 ### Skills Tiles
 
@@ -344,12 +356,13 @@ To remedy this, I added the following CSS to combat this issue when "Data Visual
 
 ```
 
-
-
-
 ### Webkit Autofill
 
+
+
 ### Textarea bottom margins
+
+
 
 <br />
 <br />
