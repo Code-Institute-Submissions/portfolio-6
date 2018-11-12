@@ -328,6 +328,25 @@ As a long term solution, outside the scope of this project, I will test the Auto
 
 ### Skills Tiles
 
+The 'Skills Tiles' are a fun and interactive way of learning about my skillset and works really well with good hover effects bringing in the element of good user interaction.
+
+It is imperative that I kept all the tiles an equal size, irrespective of the content inside. The best way I feel this can be achieved is by setting absolute width and height on the property. This became challenging when I added padding the tiles, where "Data Visualisation" would no longer fit on one line causing that tile to offset from the top by about 8px.
+
+As this was the only tile affected, I opted to remove the padding from the tiles altogether to avoid any positioning issues. However, it wasn't until I realised that the tiles were too big for mobile devices where I needed to decrease the size of the tiles, and again "Data Visualisation" was too big to fit onto one line causing the tile to offset. 
+
+To remedy this, I added the following CSS to combat this issue when "Data Visualisation" fell onto two lines on smaller screen sizes.
+
+```css 
+.data--tile {
+    position: relative;
+    top: -8px;
+}
+
+```
+
+
+
+
 ### Webkit Autofill
 
 ### Textarea bottom margins
