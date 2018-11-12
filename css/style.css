@@ -798,7 +798,7 @@ fieldset legend {
 
 .form-alert {
     position: absolute;
-    background: linear-gradient(220deg, #989eaa -10%, #5480d7 70%);
+    background: linear-gradient(220deg, #989eaa -10%, #5480d7 70%) no-repeat;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 1.25px;
@@ -877,7 +877,7 @@ fieldset legend {
 
 .form-label-ta {
     width: 96%;
-    background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
+    background: linear-gradient(220deg,#727987 -10%,#989eaa 70%) no-repeat;
 }
 
 /* INPUT FIELDS */
@@ -888,7 +888,7 @@ fieldset legend {
     font-family: 'Muli', sans-serif;
     font-size: 17px;
     line-height: 2em;
-    background: linear-gradient(220deg,#727987 -10%,#989eaa 70%);
+    background: linear-gradient(220deg,#727987 -10%,#989eaa 70%) no-repeat;
     color: #F5F5F5; 
     border: none;
 }
