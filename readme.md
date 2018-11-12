@@ -227,6 +227,16 @@ When testing the form validation after implementation of the Submit button, it w
 
 Following this test, the issue was resolved as seen in this commit: [code and style submit button](https://github.com/mineshkothari/portfolio/commit/256f92804b42b22273f28407520787501efcd96d).
 
+**Mobile Devices**
+
+Chrome's DevTool's was heavily used during production. Once the portfolio was deployed to Github Pages, the site was physically tested on mobile phones. Although the site looked similar (if not the same) as it did during development, to my surprise, I felt as though the font size should be reduced on smaller screens as 16px seemed too big.
+
+I also made a change to the size of the tiles on smaller screen sizes following the physical tests as 200px by 200px looked very disproportionate on smaller screens and needed to be a lot smaller.
+
+However, making the tiles smaller did come with its challenges. As the title 'Data Visualisation' was too long to fit into one line, the split forced the parent element down 8px. Which I needed to pull back up using css.
+
+See the **Report > Skills Tile** section for more details.
+
 <br />
 <br />
 
@@ -315,6 +325,8 @@ As a long term solution, outside the scope of this project, I will test the Auto
 ### TypeWriter in IE
 
 ### Parallax effect
+
+### Skills Tiles
 
 ### Webkit Autofill
 
