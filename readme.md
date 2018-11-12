@@ -232,7 +232,11 @@ Following this test, the issue was resolved as seen in this commit: [code and st
 
 ## Deployment
 
-This portfolio has been deployed to Github Pages.
+This project has been deployed to Github Pages from the master branch.
+
+Once the project was deployed I was not only able to test the [live site](https://mineshkothari.github.io/portfolio/) on desktop web browsers, but able to test the portfolio on various mobile devices, making a few changes as a result. The changes included: 
+1. Decreasing the font size on ```<p>``` tags 
+2. Decreasing the size of the tiles
 
 <br />
 <br />
