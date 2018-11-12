@@ -582,9 +582,6 @@ section.portfolio {
 }
 
 .about-img-author {
-    /* height: 100%;
-    width: 100%;
-    object-fit: cover; */
     background: url('../img/other/bg1.jpg') no-repeat center center / cover;
 }
 
