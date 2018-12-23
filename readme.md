@@ -28,7 +28,7 @@ Here, you will learn a little bit about me, my skills and experience as well as 
 
 The key focus of this project is to showcase my portfolio website whilst finding the right balance between a clean and minimalistic look and feel as well as utilising the best techniques to present content in spectacular ways.
 
-The project's design is something that has been derived from Google's [Material Design](https://material.io/design/). With great admiration for Material Design, it was a great opportunity to take inspiration from techniques which work well and showcase my knowledge through the portfolio.
+The project's design is something that has been inspired from Google's [Material Design](https://material.io/design/). With great admiration for Material Design, it was a great opportunity to take inspiration from techniques which work well and showcase my knowledge through the portfolio.
 
 More focus was drawn to the colour palette for this portfolio. It was imperative to use 'soft' contrasting colours, ones which also complement each other.
 
@@ -244,16 +244,25 @@ However, making the tiles smaller did come with its challenges. As the title 'Da
 
 See the **Report > Skills Tile** section for more details.
 
+### After Deployment
+
+Once the Portfolio was deployed on Github Pages, I was able to test the website on various environments and devices. Although the website was tested thoroughly on the local machine during the development phase, it was always my intention to test the website on different envrionments and devices I had available at my disposable.
+
+This paid dividends when testing the website on smaller devices such as mobile phones running iOS and Android operating systems. A few problems I found were: 
+
+1. The default font size on ```<p>``` tags were too large in my opinion
+2. The skills tiles were too large in my opinion
+
+Once the tests concluded, I tweaked the CSS to remedy these issues and offer a better User Experience as a result.
+
 <br />
 <br />
 
 ## Deployment
 
-This project has been deployed to Github Pages from the master branch.
+This project has been deployed to Github Pages from the master branch. A link to the deployed version of the site can be found [here](https://mineshkothari.github.io/portfolio/).
 
-Once the project was deployed I was not only able to test the [live site](https://mineshkothari.github.io/portfolio/) on desktop web browsers, but able to test the portfolio on various mobile devices, making a few changes as a result. The changes included: 
-1. Decreasing the font size on ```<p>``` tags 
-2. Decreasing the size of the tiles
+Once the project was deployed, I was not only able to test the live site on desktop web browsers on other environments, but also able to test the portfolio on various mobile devices. See **Testing > After Deployment** for more information. 
 
 <br />
 <br />
