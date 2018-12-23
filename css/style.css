@@ -582,11 +582,12 @@ section.portfolio {
 }
 
 .about-img-author {
-    background: url('../img/other/bg1.jpg') no-repeat center center / cover;
+    background: url('../img/other/bg1.jpg') no-repeat center bottom / contain, #252831;
+    /* background-color: #252831; */
 }
 
 .about-img {
-    background: url('../img/portfolio/image-three.jpg') no-repeat center center / cover;
+    background: url('../img/other/bg2.jpg') no-repeat center center / cover;
 }
 
 .about-text {

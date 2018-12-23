@@ -229,7 +229,11 @@ When testing the form validation after implementation of the Submit button, it w
 
 Following this test, the issue was resolved as seen in this commit: [code and style submit button](https://github.com/mineshkothari/portfolio/commit/256f92804b42b22273f28407520787501efcd96d).
 
-**Mobile Devices**
+**Linear Gradients**
+
+Issue with Linear Gradients > Need no-repeat bg property to fix
+
+### Mobile Devices
 
 Chrome's DevTool's was heavily used during production. Once the portfolio was deployed to Github Pages, the site was physically tested on mobile phones. Although the site looked similar (if not the same) as it did during development, to my surprise, I felt as though the font size should be reduced on smaller screens as 16px seemed too big.
 
