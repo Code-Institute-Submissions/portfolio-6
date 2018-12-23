@@ -463,6 +463,7 @@ section.portfolio {
 }
 
 .project-four {
+    display: none;
     grid-row: span 3;
     grid-column: span 6;
     background: #410B13;
@@ -1041,17 +1042,13 @@ footer span {
         font-size: 2.5em;
     }
 
-    /* INTRO SECTION */
-    /* section.intro {
-        background: linear-gradient(rgba(245,245,245,1),rgba(204,204,204,0.6)), url("https://source.unsplash.com/collection/3320800/") no-repeat center center / cover;
-    } */
-
     /* PORTFOLIO SECTION */
 
     /* GRID */
     .project-four {
         grid-row: span 1;
         grid-column: span 1;
+        display: block;
     }
     
     .project-one,
