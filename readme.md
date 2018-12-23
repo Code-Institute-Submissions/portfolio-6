@@ -69,8 +69,8 @@ As with markup, Cascading Style Sheets are essential when controlling the layout
 
 For projects using Bootstrap please see my other repositories:
 
-[TOP SIX DASHBOARD](https://github.com/mineshkothari/premierleague)
-[Fullstack](https://github.com/mineshkothari/fullstack)
+[TOP SIX DASHBOARD](https://github.com/mineshkothari/premierleague)  
+[Fullstack](https://github.com/mineshkothari/fullstack)  
 
 - CSS Grid
 
