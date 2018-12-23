@@ -88,8 +88,9 @@ Custom JavaScript (Vanilla and JQuery) was used for this project to enhance the 
 
 JQuery was used as part of my JavaScript functionality. One of many perks for using JQuery is its simplicity in manipulating DOM elements using the syntax ```$('.myClass')``` as oppose to writing out ```document.querySelector('.myClass')``` each time.
 
-- Firebase
+- Firebase Realtime Database
 
+Google's Firebase offers a quick and easy solution to integrate back-end database to web applications. Firebase Realtime Database is used in this project to store contact form entries to Google's NoSQL cloud database which is a perfect addition to this front-end project.
 
 <br />
 <br />
