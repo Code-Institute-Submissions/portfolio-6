@@ -72,11 +72,11 @@ For projects using Bootstrap please see my other repositories:
 [TOP SIX DASHBOARD](https://github.com/mineshkothari/premierleague)  
 [Fullstack](https://github.com/mineshkothari/fullstack)  
 
-- CSS Grid
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
 CSS Grid is a 2-dimensional gird system which can handle both rows and columns. This layout system has been the main focus for the 'Portfolio' section of this project offering an elegant mosaic-esque design.
 
-- Flexbox
+- [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
 Flexbox is designed as a one-dimensional layout model unlike the two-dimensional counterpart CSS Grid. However, this is still one of the most powerful tools when it comes to positioning elements on the page.
 
@@ -88,7 +88,7 @@ Custom JavaScript (Vanilla and JQuery) was used for this project to enhance the 
 
 JQuery was used as part of my JavaScript functionality. One of many perks for using JQuery is its simplicity in manipulating DOM elements using the syntax ```$('.myClass')``` as oppose to writing out ```document.querySelector('.myClass')``` each time.
 
-- Firebase Realtime Database
+- [Firebase Realtime Database](https://firebase.google.com/docs/database/)
 
 Google's Firebase offers a quick and easy solution to integrate back-end database to web applications. Firebase Realtime Database is used in this project to store contact form entries to Google's NoSQL cloud database which is a perfect addition to this front-end project.
 
