@@ -163,7 +163,13 @@ The website was again tested right before the project was deployed to ensure any
 
 ### Testing the Contact Form
 
-Tests were also carried out to ensure the contact form was behaving correctly. Monitoring various use cases and user behaviour.
+**Defensive Desgin**
+
+As with the rest of this site, the contact form was implemented using a defensive design approach. This ensures the user is given constructive feedback in the event something goes wrong, this is particularly important when users are intacting with contact forms.
+
+I wanted to prevent users submitting an empty form. HTML5 makes it really simple to ensure the form is valid before the user clicks on the submit button. In order to ensure an empty form wasn't being submitted, I set the input and textarea fields to ```required```. In the event a user attempted to submit an empty form then they would receive a constructive error message to fill out the empty fields.
+
+To ensure the email syntax inside the form is valid before the user clicks on the submit button, I used ```type="email"``` on the input field. This ensures correct email syntax will be required. If this condition is not met, then the user will receive a constructive error message to enter the email address in the correct format.
 
 **label for**
 
@@ -183,7 +189,9 @@ Following this test, the issue was resolved as seen in this commit: [code and st
 
 **Linear Gradients**
 
-Issue with Linear Gradients > Need no-repeat bg property to fix
+The contact form fields boast a subtle linear gradient background colour to improve its appearance. This inadvertantly created a bug where a 1px solid white line was visible at the end of the gradient.
+
+In order to remedy this, I applied ```no-repeat``` to the background property.
 
 ### Mobile Devices
 
