@@ -309,7 +309,11 @@ As a result, I opted to disable the TypeWriter effect on IE altogether by moving
 
 ### Parallax effect
 
-The parallaxing summary divs are something I am very fond of. They've been difficult to implement  
+For this project, I wanted to use JavaScript in a way that would enhance the user's experience when visiting the portfolio website. One really intriguing way to do this was to implement parallax effects on three separate elements where they would scroll at a slower speed to the rest of the page.
+
+However, I wanted to ensure that each element would parallax independently from each other and would only trigger when the item was in the viewport. This is to prevent the element from scrolling too far down once the user scrolled to that section on the page.
+
+In order to achieve this, I used a JavaScript function to trigger on each of the `summary--parallax` class when the element position was offset from the top by 450px.
 
 ### Skills Tiles
 
@@ -328,10 +332,6 @@ To remedy this, I added the following CSS to combat this issue when "Data Visual
 }
 
 ```
-
-### Textarea bottom margins
-
-
 
 <br />
 <br />
