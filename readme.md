@@ -370,10 +370,6 @@ To remedy this, I added the following CSS to combat this issue when "Data Visual
 
 ```
 
-### Webkit Autofill
-
-
-
 ### Textarea bottom margins
 
 
@@ -385,7 +381,7 @@ To remedy this, I added the following CSS to combat this issue when "Data Visual
 
 ### Media
 
-Many of the images from this site have been sourced from Unsplash. I created a [collection](https://unsplash.com/collections) which I called using their API https://source.unsplash.com/collection/{COLLECTION ID} during testing. This worked particularly well as it's quick and lightweight. An example of how it was used can be seen below.
+Many of the images from this site have been sourced from Unsplash. I created a [collection](https://unsplash.com/collections) which I called using their API during testing. This worked particularly well as it's quick and lightweight. An example of how it was used can be seen below.
 
 ```css
 section.intro {
@@ -393,7 +389,7 @@ section.intro {
 }
 ```
 
-Once the project was nearing completion, I saved and compressed the images to a folder within the project.
+Once the project was nearing completion, The images were saved to a local directory and compressed the images to a folder within the project.
 
 ### Acknowledgements
 
