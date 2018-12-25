@@ -95,55 +95,6 @@ Google's Firebase offers a quick and easy solution to integrate back-end databas
 <br />
 <br />
 
-## Contributing
-
-This portfolio is a personal project created as part of my Full Stack Web Development course for [Code Institute](https://www.codeinstitute.net/). With that being said, it would be amazing to see the community getting involved by making or suggesting some really interesting changes. Or simply using this project as inspiration to create something yourself.
-
-**Things to consider:**
-
-This portfolio has very few dependencies making it really simple to set up on your own environment. You can use this for your own portfolio or make changes and submit pull requests if you think you have cool ideas.  
-
-**Prerequisites:**
-```
-This portfolio has no prerequisites
-```
-
-### Forking The Repo
-
-1. In order to make changes, you will need to fork the repository. Click on the **Fork** button in the top-right corner of this page.
-2. You will now need a copy of these files on your computer to make changes. To do this, you will need to clone or download the repo you forked in the previous step onto your local computer:
-    - Click on the green **Clone or download** button
-    - Under **Clone with HTTPS**, copy the clone URL for the repository
-    - Open your Git terminal
-    - Type ```git clone``` followed by the URL copied in the second step. This should look something like the following:
-```console
-$ git clone https://github.com/YOUR-USERNAME/portfolio.git
-```
-3. Once you have the file path all written down, go and hit Enter on your keyboard to request the clone.
-
-### Making Changes
-
-Now you're all set to make changes. You can open the project on you preferred text editor or IDE and begin making changes.
-
-### Submitting Pull Requests
-
-Now that you've made changes to the portfolio, you can submit a pull request to the master branch to await approval. To do this:
-1. Navigate to the [original repository](https://github.com/mineshkothari/portfolio "https://github.com/mineshkothari/portfolio")
-2. Click on **New pull request** on the right of the Branch menu
-3. On the compare page, click **compare across forks**
-4. Confirm that the *base fork* is the repository you'd like to merge into
-5. Use the *head fork* drop-down menu to select your fork, then use the compare branch drop-down menu to select the branch you made your changes in
-6. Type a little description for your pull request
-7. If you do not want to allow anyone with push access to the upstream repository to make changes to your PR, unselect **Allow edits from maintainers**
-8. Click **Create pull request**
-
-For further information about forking a repository, please click [here](https://help.github.com/articles/fork-a-repo/).
-
-For further information about creating pull requests, please click [here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/).
-
-<br />
-<br />
-
 ## Testing
 
 This project has undergone rigorous testing with each new implementation to ensure every aspect of this site works robustly.
@@ -373,6 +324,55 @@ To remedy this, I added the following CSS to combat this issue when "Data Visual
 ### Textarea bottom margins
 
 
+
+<br />
+<br />
+
+## Contributing
+
+This portfolio is a personal project created as part of my Full Stack Web Development course for [Code Institute](https://www.codeinstitute.net/). With that being said, it would be amazing to see the community getting involved by making or suggesting some really interesting changes. Or simply using this project as inspiration to create something yourself.
+
+**Things to consider:**
+
+This portfolio has very few dependencies making it really simple to set up on your own environment. You can use this for your own portfolio or make changes and submit pull requests if you think you have cool ideas.  
+
+**Prerequisites:**
+```
+This portfolio has no prerequisites
+```
+
+### Forking The Repo
+
+1. In order to make changes, you will need to fork the repository. Click on the **Fork** button in the top-right corner of this page.
+2. You will now need a copy of these files on your computer to make changes. To do this, you will need to clone or download the repo you forked in the previous step onto your local computer:
+    - Click on the green **Clone or download** button
+    - Under **Clone with HTTPS**, copy the clone URL for the repository
+    - Open your Git terminal
+    - Type ```git clone``` followed by the URL copied in the second step. This should look something like the following:
+```console
+$ git clone https://github.com/YOUR-USERNAME/portfolio.git
+```
+3. Once you have the file path all written down, go and hit Enter on your keyboard to request the clone.
+
+### Making Changes
+
+Now you're all set to make changes. You can open the project on you preferred text editor or IDE and begin making changes.
+
+### Submitting Pull Requests
+
+Now that you've made changes to the portfolio, you can submit a pull request to the master branch to await approval. To do this:
+1. Navigate to the [original repository](https://github.com/mineshkothari/portfolio "https://github.com/mineshkothari/portfolio")
+2. Click on **New pull request** on the right of the Branch menu
+3. On the compare page, click **compare across forks**
+4. Confirm that the *base fork* is the repository you'd like to merge into
+5. Use the *head fork* drop-down menu to select your fork, then use the compare branch drop-down menu to select the branch you made your changes in
+6. Type a little description for your pull request
+7. If you do not want to allow anyone with push access to the upstream repository to make changes to your PR, unselect **Allow edits from maintainers**
+8. Click **Create pull request**
+
+For further information about forking a repository, please click [here](https://help.github.com/articles/fork-a-repo/).
+
+For further information about creating pull requests, please click [here](https://help.github.com/articles/creating-a-pull-request-from-a-fork/).
 
 <br />
 <br />
