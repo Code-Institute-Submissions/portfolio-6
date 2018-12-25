@@ -1,4 +1,4 @@
-# PORTFOLIO | developed by Minesh Kothari
+# [PORTFOLIO](https://mineshkothari.github.io/portfolio/) | developed by Minesh Kothari
 
 <br />
 <br />
