@@ -206,7 +206,7 @@ section:nth-of-type(2n+2) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 1em; */ /* CREATES ISSUE WITH DATA VIS TILE ALIGNMENT */
+    /* padding: 1em; */ /* CREATES ISSUE WITH DATA VIS TILE ALIGNMENT. SEE README > REPORT > SKILLS TILES */
     text-align: center;
     text-transform: uppercase;
     font-weight: 800;
@@ -584,7 +584,6 @@ section.portfolio {
 
 .about-img-author {
     background: url('../img/other/bg1.jpg') no-repeat center bottom / contain, #252831;
-    /* background-color: #252831; */
 }
 
 .about-img {
@@ -778,7 +777,6 @@ section.portfolio {
 
 /* CONTACT FORM */
 .contact-form-container {
-    /* margin: 8% 0; */
     padding: 4% 1em;
 }
 
@@ -912,8 +910,6 @@ fieldset legend {
 footer {
     background: #32302F;
     padding: 2.5em 2em;
-    /* height: 10em; */
-    /* color: #F5F5F5; */
 }
 
 footer span {
@@ -926,7 +922,7 @@ footer span {
 ******************/
 
 @media (max-width: 351px) {
-    /* FIXING SUMMARY TITLES ON SMALL SCREENS */
+    /* CONFIGURE SUMMARY TITLES ON SMALL SCREENS */
     .summary-title {
         font-size: 0.9em;
         top: 2em;
@@ -1155,6 +1151,13 @@ footer span {
     /* TIMELINE */
     .about--timeline {
         padding: 8% 8% 0 8%;
+    }
+
+    /* INCREASE FONT SIZE ON MD SCREEN */
+    .intro-main p,
+    .about-text,
+    .about--skills-intro p {
+        font-size: 1.25rem;
     }
 }
 
