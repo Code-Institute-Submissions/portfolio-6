@@ -160,9 +160,9 @@ The website was again tested right before the project was deployed to ensure any
 
 ### Testing the Contact Form
 
-**Defensive Desgin**
+**Defensive Design**
 
-As with the rest of this site, the contact form was implemented using a defensive design approach. This ensures the user is given constructive feedback in the event something goes wrong, this is particularly important when users are intacting with contact forms.
+As with the rest of this site, the contact form was implemented using a defensive design approach. This ensures the user is given constructive feedback in the event something goes wrong, this is particularly important when users are interacting with contact forms.
 
 I wanted to prevent users submitting an empty form. HTML5 makes it really simple to ensure the form is valid before the user clicks on the submit button. In order to ensure an empty form wasn't being submitted, I set the input and textarea fields to ```required```. In the event a user attempted to submit an empty form then they would receive a constructive error message to fill out the empty fields.
 
@@ -180,13 +180,13 @@ This was later resolved and followed with a git commit: [fixed issue with form l
 
 As per above, another issue became apparent as a result of copying and pasting code from the 'Name' field where I'd forgotten to amend the ```type="text"``` to ```type="email"```.
 
-When testing the form validation after implementation of the Submit button, it was clear user's can enter any text into email field not necessarily including an '@' symbol and the form would validate perfectly fine.
+When testing the form validation after implementation of the Submit button, it was clear users can enter any text into email field not necessarily including an '@' symbol and the form would validate perfectly fine.
 
 Following this test, the issue was resolved as seen in this commit: [code and style submit button](https://github.com/mineshkothari/portfolio/commit/256f92804b42b22273f28407520787501efcd96d).
 
 **Linear Gradients**
 
-The contact form fields boast a subtle linear gradient background colour to improve its appearance. This inadvertantly created a bug where a 1px solid white line was visible at the end of the gradient.
+The contact form fields boast a subtle linear gradient background colour to improve its appearance. This inadvertently created a bug where a 1px solid white line was visible at the end of the gradient.
 
 In order to remedy this, I applied ```no-repeat``` to the background property.
 
@@ -202,7 +202,7 @@ See the **Report > Skills Tile** section for more details.
 
 ### After Deployment
 
-Once the Portfolio was deployed on Github Pages, I was able to test the website on various environments and devices. Although the website was tested thoroughly on the local machine during the development phase, it was always my intention to test the website on different envrionments and devices I had available at my disposable.
+Once the Portfolio was deployed on Github Pages, I was able to test the website on various environments and devices. Although the website was tested thoroughly on the local machine during the development phase, it was always my intention to test the website on different environments and devices I had available at my disposable.
 
 This paid dividends when testing the website on smaller devices such as mobile phones running iOS and Android operating systems. A few problems I found were: 
 
@@ -278,7 +278,7 @@ CSS Grid has been one of my biggest challenges for this project due to its brows
 
 As I wanted this project to have no (or very little) dependencies, I've been reluctant to use the Autoprefixer tool to implement CSS Grid for IE on this portfolio.
 
-Instead, I opted to stacked them one on top of another, adding margin to each ```.project-tile``` element for a visually appealing fallback option.
+Instead, I opted to stacked them one on top of another, adding margin to each ```.project-tile``` element for a visually appealing fall-back option.
 
 ```css
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
