@@ -67,10 +67,7 @@ As with every website or web based app, the use of Hypertext Markup Language is 
 
 As with markup, Cascading Style Sheets are essential when controlling the layout of the website. Custom CSS was used for this project with Media Queries to control responsiveness enhancing user interaction and delivering exceptional user experience.
 
-For projects using Bootstrap please see my other repositories:
-
-    - [TOP SIX DASHBOARD](https://github.com/mineshkothari/premierleague)  
-    - [Fullstack](https://github.com/mineshkothari/fullstack)  
+(For projects using Bootstrap please see my other repositories:[TOP SIX DASHBOARD](https://github.com/mineshkothari/premierleague), [Fullstack](https://github.com/mineshkothari/fullstack)).
 
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
