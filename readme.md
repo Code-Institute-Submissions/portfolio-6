@@ -7,7 +7,7 @@
 
 ### About The Portfolio
 
-This project consists of a single page portfolio website. Visitors can keep up to date with my most illustrious projects as well as my vast array of skills. Visitors of the portfolio website can also get in touch either via social media outlined on the website or using the contact form at the bottom of the page.
+This project consists of a single page portfolio website. Visitors can keep up to date with my most illustrious projects as well as my vast array of skills. Visitors of the portfolio website can also get in touch either via social media links on the website or using the contact form at the bottom of the page.
 
 ### What is it for?
 
@@ -69,8 +69,8 @@ As with markup, Cascading Style Sheets are essential when controlling the layout
 
 For projects using Bootstrap please see my other repositories:
 
-[TOP SIX DASHBOARD](https://github.com/mineshkothari/premierleague)  
-[Fullstack](https://github.com/mineshkothari/fullstack)  
+    - [TOP SIX DASHBOARD](https://github.com/mineshkothari/premierleague)  
+    - [Fullstack](https://github.com/mineshkothari/fullstack)  
 
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
