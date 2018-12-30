@@ -67,7 +67,7 @@ As with every website or web based app, the use of Hypertext Markup Language is 
 
 As with markup, Cascading Style Sheets are essential when controlling the layout of the website. Custom CSS was used for this project with Media Queries to control responsiveness enhancing user interaction and delivering exceptional user experience.
 
-(For projects using Bootstrap please see my other repositories:[TOP SIX DASHBOARD](https://github.com/mineshkothari/premierleague), [Fullstack](https://github.com/mineshkothari/fullstack)).
+(For projects using Bootstrap please see my other repositories: [Top Six Dashboard](https://github.com/mineshkothari/premierleague), [Fullstack](https://github.com/mineshkothari/fullstack)).
 
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
@@ -386,7 +386,7 @@ For further information about creating pull requests, please click [here](https:
 
 ### Media
 
-Many of the images from this site have been sourced from Unsplash. I created a [collection](https://unsplash.com/collections) which I called using their API during testing. This worked particularly well as it's quick and lightweight. An example of how it was used can be seen below.
+Many of the images from this site have been sourced from Unsplash. I created a [collection](https://unsplash.com/collections) which I then integrated with this project using their API whilst the project was under development. This worked particularly well as it's quick and lightweight. An example of how it was used can be seen below.
 
 ```css
 section.intro {
@@ -394,7 +394,7 @@ section.intro {
 }
 ```
 
-Once the project was nearing completion, The images were saved to a local directory and compressed the images to a folder within the project.
+Once the project was nearing completion, the images were compressed and saved within the project folder.
 
 ### Acknowledgements
 
