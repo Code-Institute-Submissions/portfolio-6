@@ -9,10 +9,6 @@
 
 This project consists of a single page portfolio website. Visitors can keep up to date with my most illustrious projects as well as my vast array of skills. Visitors of the portfolio website can also get in touch either via social media links on the website or using the contact form at the bottom of the page.
 
-### What is it for?
-
-This portfolio has been developed as part of my Stream 1 project for [Code Institute](https://codeinstitute.net/)'s Full Stack Web Development course. Upon completion of the course, I will gain a diploma in Software Development.
-
 ### Who is it targeted at?
 
 This project will stand as my main portfolio (brand) and be presented to prospective employers and clients.
@@ -20,6 +16,10 @@ This project will stand as my main portfolio (brand) and be presented to prospec
 Having said this, the portfolio is also something that is aimed at any visitor who would like to keep up-to-date with my latest web projects and skills or even for those simply looking to keep in touch. 
 
 Here, you will learn a little bit about me, my skills and experience as well as diving into projects showcased on the site.
+
+### What is it for?
+
+This portfolio has been developed as part of my Stream 1 project for [Code Institute](https://codeinstitute.net/)'s Full Stack Web Development course. Upon completion of the course, I will gain a diploma in Software Development.
 
 <br />
 <br />
@@ -59,6 +59,8 @@ More focus was drawn to the colour palette for this portfolio. It was imperative
 
 ## Technologies Implemented
 
+### Languages Used
+
 - HTML5
 
 As with every website or web based app, the use of Hypertext Markup Language is paramount. HTML5 has been used as the markup for this project as this would enable use of many of the new semantics to keep the structure of this project clear and in keeping with the latest industry standards.
@@ -69,6 +71,13 @@ As with markup, Cascading Style Sheets are essential when controlling the layout
 
 (For projects using Bootstrap please see my other repositories: [Top Six Dashboard](https://github.com/mineshkothari/premierleague), [Fullstack](https://github.com/mineshkothari/fullstack)).
 
+- JavaScript
+
+Custom JavaScript (Vanilla and JQuery) was used for this project to enhance the user experience using parallaxing effects and a navigation toggle button.
+
+
+### Frameworks & Libraries
+
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
 CSS Grid is a 2-dimensional gird system which can handle both rows and columns. This layout system has been the main focus for the 'Portfolio' section of this project offering an elegant mosaic-esque design.
@@ -77,13 +86,15 @@ CSS Grid is a 2-dimensional gird system which can handle both rows and columns. 
 
 Flexbox is designed as a one-dimensional layout model unlike the two-dimensional counterpart CSS Grid. However, this is still one of the most powerful tools when it comes to positioning elements on the page.
 
-- JavaScript
-
-Custom JavaScript (Vanilla and JQuery) was used for this project to enhance the user experience using parallaxing effects and a navigation toggle button.
-
 - JQuery
 
 JQuery was used as part of my JavaScript functionality. One of many perks for using JQuery is its simplicity in manipulating DOM elements using the syntax ```$('.myClass')``` as oppose to writing out ```document.querySelector('.myClass')``` each time.
+
+### Tools
+
+- [Git](https://git-scm.com/)
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning fast performance.
 
 - [Firebase Realtime Database](https://firebase.google.com/docs/database/)
 
@@ -97,22 +108,6 @@ Google's Firebase offers a quick and easy solution to integrate back-end databas
 This project has undergone rigorous testing with each new implementation to ensure every aspect of this site works robustly.
 
 *All tests were done on a Windows 10 64-bit PC unless otherwise stated*
-
-**Desktop Browsers Tested:**
-```
-Google Chrome
-Firefox
-Microsoft Edge
-Internet Explorer 11
-```
-
-**Mobile Browsers Tested:**
-```
-Chrome iOS
-Chrome Android
-Samsung Internet
-Safari
-```
 
 ### console.log
 
@@ -145,6 +140,21 @@ Some of the use cases includes:
 See the **Report > Responsive Design** section for more details.
 
 ### Cross-Browser Testing
+
+**Desktop Browsers Tested:**
+```
+Google Chrome 72
+Mozilla Firefox 62.0.2
+Microsoft Edge 42
+Internet Explorer 11
+```
+
+**Mobile Browsers Tested:**
+```
+Samsung Internet (Samsung S8)
+Chrome (Samsung S8, iPhone 6S)
+Safari (iPhone 6S)
+```
 
 Cross-browser testing was undertaken after each major implementation of the project. This included the implementation of the navbar, CSS Grid, and Flexbox items amongst many others.
 
