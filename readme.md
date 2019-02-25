@@ -214,6 +214,15 @@ Once the tests concluded, I tweaked the CSS to remedy these issues and offer a b
 <br />
 <br />
 
+## Known-bugs
+
+### Parallax Divs
+
+### CSS Grid project-four tile
+
+<br />
+<br />
+
 ## Deployment
 
 This project has been deployed to Github Pages from the master branch. A link to the deployed version of the site can be found [here](https://mineshkothari.github.io/portfolio/).
